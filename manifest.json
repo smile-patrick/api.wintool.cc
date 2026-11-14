@@ -4,14 +4,10 @@
     "site":  "https://www.wintool.cc/",
     "baseUrl":  "https://api.wintool.cc/",
     "categories":  [
-                       "系统",
                        "检测",
                        "优化",
                        "美化",
-                       "管理",
-                       "磁盘",
-                       "清理",
-                       "其他"
+                       "管理"
                    ],
     "tools":  [
                   {
@@ -20,6 +16,7 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "restart-explorer",
+                      "icon":  "Refresh",
                       "desc":  "任务栏/桌面卡住时用"
                   },
                   {
@@ -28,7 +25,8 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "rebuild-icons",
-                      "desc":  "图标显示错乱、白色图标"
+                      "icon":  "Grid",
+                      "desc":  "图标错乱、白图标"
                   },
                   {
                       "id":  "about-os",
@@ -36,7 +34,8 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "about-os",
-                      "desc":  "查看系统版本与硬件信息"
+                      "icon":  "Info",
+                      "desc":  "查看系统版本与硬件"
                   },
                   {
                       "id":  "cleanmgr",
@@ -44,7 +43,8 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "open-cleanmgr",
-                      "desc":  "调用系统自带的磁盘清理"
+                      "icon":  "Trash",
+                      "desc":  "调用系统磁盘清理"
                   },
                   {
                       "id":  "clean-deep",
@@ -52,6 +52,7 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "clean-deep",
+                      "icon":  "Broom",
                       "desc":  "临时文件 + 预读缓存"
                   },
                   {
@@ -60,6 +61,7 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "toggle-hibernate",
+                      "icon":  "Battery",
                       "desc":  "释放或恢复 hiberfil.sys"
                   },
                   {
@@ -68,6 +70,7 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "run-regedit",
+                      "icon":  "Registry",
                       "desc":  "regedit 注册表编辑器"
                   },
                   {
@@ -76,6 +79,7 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "shutdown",
+                      "icon":  "Power",
                       "desc":  "关机（10 秒倒计时）"
                   },
                   {
@@ -84,6 +88,7 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "restart",
+                      "icon":  "Restart",
                       "desc":  "重启（10 秒倒计时）"
                   },
                   {
@@ -92,7 +97,26 @@
                       "category":  "系统",
                       "version":  "1.0.0",
                       "action":  "logoff",
+                      "icon":  "LogOff",
                       "desc":  "注销当前用户"
+                  },
+                  {
+                      "id":  "open-downloads",
+                      "name":  "下载中心",
+                      "category":  "管理",
+                      "version":  "1.0.0",
+                      "action":  "open-downloads",
+                      "icon":  "Package",
+                      "desc":  "缺工具时来这里下"
+                  },
+                  {
+                      "id":  "open-tooldir",
+                      "name":  "工具目录",
+                      "category":  "管理",
+                      "version":  "1.0.0",
+                      "action":  "open-tooldir",
+                      "icon":  "Folder",
+                      "desc":  "打开 tools 目录"
                   }
               ]
 }
