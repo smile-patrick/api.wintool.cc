@@ -31,11 +31,11 @@
                       "desc":  "图标显示错乱、白色图标"
                   },
                   {
-                      "id":  "open-about",
+                      "id":  "about-os",
                       "name":  "打开关于系统",
                       "category":  "系统",
                       "version":  "1.0.0",
-                      "action":  "open-about",
+                      "action":  "about-os",
                       "desc":  "查看系统版本与硬件信息"
                   },
                   {
@@ -63,11 +63,11 @@
                       "desc":  "释放或恢复 hiberfil.sys"
                   },
                   {
-                      "id":  "open-regedit",
+                      "id":  "run-regedit",
                       "name":  "打开注册表",
                       "category":  "系统",
                       "version":  "1.0.0",
-                      "action":  "open-regedit",
+                      "action":  "run-regedit",
                       "desc":  "regedit 注册表编辑器"
                   },
                   {
