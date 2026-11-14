@@ -109,6 +109,7 @@
           "entry": "aida64.exe",
           "desc": "",
           "args": "",
+          "version": "1.0.1",
           "archive": {
             "path": "",
             "size": 47816853,
@@ -130,6 +131,7 @@
           "entry": "CoreTemp32/Core Temp.exe",
           "desc": "",
           "args": "",
+          "version": "1.0.0",
           "archive": {
             "path": "tools/cpu工具/coretemp1151.zip",
             "size": 1683381,
@@ -141,6 +143,7 @@
           "entry": "cpuz64.exe",
           "desc": "",
           "args": "",
+          "version": "1.0.0",
           "archive": {
             "path": "tools/cpu工具/cpuz.zip",
             "size": 3456999,
@@ -188,6 +191,7 @@
           "entry": "ASSSDBenchmark.exe",
           "desc": "",
           "args": "",
+          "version": "1.0.0",
           "archive": {
             "path": "tools/磁盘工具/asssdbenchmark.zip",
             "size": 290032,
