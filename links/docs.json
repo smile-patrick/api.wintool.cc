@@ -1,9 +1,7 @@
-﻿{
-    "updatedAt":  "2026-11-15",
-    "title":  "教程文档",
-    "page":  "docs",
-    "items":  [
-
-              ],
-    "version":  1
+{
+  "page": "docs",
+  "title": "教程文档",
+  "version": 1,
+  "updatedAt": "2026-11-15",
+  "items": []
 }
