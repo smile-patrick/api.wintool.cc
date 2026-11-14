@@ -1,5 +1,5 @@
 {
-    "schema":  4,
+    "schema":  5,
     "updatedAt":  "2026-11-15",
     "site":  "https://www.wintool.cc/",
     "baseUrl":  "https://api.wintool.cc/",
@@ -17,96 +17,198 @@
                        "系统工具",
                        "任务栏美化"
                    ],
-    "tools":  [
-                  {
-                      "id":  "restart-explorer",
-                      "name":  "重启资源管理器",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "restart-explorer",
-                      "icon":  "Refresh",
-                      "desc":  "任务栏/桌面卡住时用"
-                  },
-                  {
-                      "id":  "rebuild-icons",
-                      "name":  "重建图标缓存",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "rebuild-icons",
-                      "icon":  "Grid",
-                      "desc":  "图标错乱、白图标"
-                  },
-                  {
-                      "id":  "about-os",
-                      "name":  "打开关于系统",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "about-os",
-                      "icon":  "Info",
-                      "desc":  "查看系统版本与硬件"
-                  },
-                  {
-                      "id":  "cleanmgr",
-                      "name":  "系统磁盘清理",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "open-cleanmgr",
-                      "icon":  "Trash",
-                      "desc":  "调用系统磁盘清理"
-                  },
-                  {
-                      "id":  "clean-deep",
-                      "name":  "高级垃圾清理",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "clean-deep",
-                      "icon":  "Broom",
-                      "desc":  "临时文件 + 预读缓存"
-                  },
-                  {
-                      "id":  "toggle-hibernate",
-                      "name":  "禁用/恢复休眠",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "toggle-hibernate",
-                      "icon":  "Battery",
-                      "desc":  "释放或恢复 hiberfil.sys"
-                  },
-                  {
-                      "id":  "run-regedit",
-                      "name":  "打开注册表",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "run-regedit",
-                      "icon":  "Registry",
-                      "desc":  "regedit 注册表编辑器"
-                  },
-                  {
-                      "id":  "shutdown",
-                      "name":  "关机",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "shutdown",
-                      "icon":  "Power",
-                      "desc":  "关机（10 秒倒计时）"
-                  },
-                  {
-                      "id":  "restart",
-                      "name":  "重启",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "restart",
-                      "icon":  "Restart",
-                      "desc":  "重启（10 秒倒计时）"
-                  },
-                  {
-                      "id":  "logoff",
-                      "name":  "注销",
-                      "category":  "系统功能",
-                      "version":  "1.0.0",
-                      "action":  "logoff",
-                      "icon":  "LogOff",
-                      "desc":  "注销当前用户"
-                  }
-              ]
+    "actions":  [
+                    {
+                        "icon":  "Refresh",
+                        "name":  "重启资源管理器",
+                        "id":  "restart-explorer",
+                        "action":  "restart-explorer",
+                        "desc":  "任务栏/桌面卡住时用"
+                    },
+                    {
+                        "icon":  "Grid",
+                        "name":  "重建图标缓存",
+                        "id":  "rebuild-icons",
+                        "action":  "rebuild-icons",
+                        "desc":  "图标错乱、白图标"
+                    },
+                    {
+                        "icon":  "Info",
+                        "name":  "打开关于系统",
+                        "id":  "about-os",
+                        "action":  "about-os",
+                        "desc":  "查看系统版本与硬件"
+                    },
+                    {
+                        "icon":  "Trash",
+                        "name":  "系统磁盘清理",
+                        "id":  "cleanmgr",
+                        "action":  "open-cleanmgr",
+                        "desc":  "调用系统磁盘清理"
+                    },
+                    {
+                        "icon":  "Broom",
+                        "name":  "高级垃圾清理",
+                        "id":  "clean-deep",
+                        "action":  "clean-deep",
+                        "desc":  "临时文件 + 预读缓存"
+                    },
+                    {
+                        "icon":  "Battery",
+                        "name":  "禁用/恢复休眠",
+                        "id":  "toggle-hibernate",
+                        "action":  "toggle-hibernate",
+                        "desc":  "释放或恢复 hiberfil.sys"
+                    },
+                    {
+                        "icon":  "Registry",
+                        "name":  "打开注册表",
+                        "id":  "run-regedit",
+                        "action":  "run-regedit",
+                        "desc":  "regedit 注册表编辑器"
+                    },
+                    {
+                        "icon":  "Power",
+                        "name":  "关机",
+                        "id":  "shutdown",
+                        "action":  "shutdown",
+                        "desc":  "关机（10 秒倒计时）"
+                    },
+                    {
+                        "icon":  "Restart",
+                        "name":  "重启",
+                        "id":  "restart",
+                        "action":  "restart",
+                        "desc":  "重启（10 秒倒计时）"
+                    },
+                    {
+                        "icon":  "LogOff",
+                        "name":  "注销",
+                        "id":  "logoff",
+                        "action":  "logoff",
+                        "desc":  "注销当前用户"
+                    }
+                ],
+    "groups":  [
+                   {
+                       "name":  "cpu工具",
+                       "icon":  "Cpu",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "内存工具",
+                       "icon":  "Memory",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "主板工具",
+                       "icon":  "Board",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "显卡工具",
+                       "icon":  "Gpu",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "显示器工具",
+                       "icon":  "Monitor",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "磁盘工具",
+                       "icon":  "Disk",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "综合检测",
+                       "icon":  "Shield",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "系统优化",
+                       "icon":  "Tune",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "禁用更新",
+                       "icon":  "Lock",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "驱动工具",
+                       "icon":  "Drive",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "系统工具",
+                       "icon":  "Gear",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "任务栏美化",
+                       "icon":  "Brush",
+                       "version":  "",
+                       "desc":  "",
+                       "archive":  null,
+                       "items":  [
+
+                                 ]
+                   }
+               ]
 }
