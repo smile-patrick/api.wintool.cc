@@ -99,24 +99,6 @@
                       "action":  "logoff",
                       "icon":  "LogOff",
                       "desc":  "注销当前用户"
-                  },
-                  {
-                      "id":  "open-downloads",
-                      "name":  "下载中心",
-                      "category":  "管理",
-                      "version":  "1.0.0",
-                      "action":  "open-downloads",
-                      "icon":  "Package",
-                      "desc":  "缺工具时来这里下"
-                  },
-                  {
-                      "id":  "open-tooldir",
-                      "name":  "工具目录",
-                      "category":  "管理",
-                      "version":  "1.0.0",
-                      "action":  "open-tooldir",
-                      "icon":  "Folder",
-                      "desc":  "打开 tools 目录"
                   }
               ]
 }
