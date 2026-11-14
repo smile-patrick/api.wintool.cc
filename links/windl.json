@@ -1,9 +1,7 @@
-﻿{
-    "updatedAt":  "2026-11-15",
-    "title":  "Windows 下载",
-    "page":  "windl",
-    "items":  [
-
-              ],
-    "version":  1
+{
+  "page": "windl",
+  "title": "Windows 下载",
+  "version": 1,
+  "updatedAt": "2026-11-15",
+  "items": []
 }
