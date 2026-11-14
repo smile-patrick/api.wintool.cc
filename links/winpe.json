@@ -1,9 +1,7 @@
-﻿{
-    "updatedAt":  "2026-11-15",
-    "title":  "Windows PE",
-    "page":  "winpe",
-    "items":  [
-
-              ],
-    "version":  1
+{
+  "page": "winpe",
+  "title": "Windows PE",
+  "version": 1,
+  "updatedAt": "2026-11-15",
+  "items": []
 }
