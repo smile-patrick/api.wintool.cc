@@ -1,230 +1,223 @@
 {
-  "schema": 6,
-  "updatedAt": "2026-11-15",
-  "site": "https://www.wintool.cc/",
-  "baseUrl": "https://api.wintool.cc/",
-  "categories": [
-    "系统功能",
-    "cpu工具",
-    "内存工具",
-    "主板工具",
-    "显卡工具",
-    "显示器工具",
-    "磁盘工具",
-    "综合检测",
-    "系统优化",
-    "禁用更新",
-    "驱动工具",
-    "系统工具",
-    "任务栏美化"
-  ],
-  "actions": [
-    {
-      "id": "restart-explorer",
-      "name": "重启资源管理器",
-      "action": "restart-explorer",
-      "icon": "Refresh",
-      "desc": "任务栏/桌面卡住时用"
-    },
-    {
-      "id": "rebuild-icons",
-      "name": "重建图标缓存",
-      "action": "rebuild-icons",
-      "icon": "Grid",
-      "desc": "图标错乱、白图标"
-    },
-    {
-      "id": "about-os",
-      "name": "打开关于系统",
-      "action": "about-os",
-      "icon": "Info",
-      "desc": "查看系统版本与硬件"
-    },
-    {
-      "id": "cleanmgr",
-      "name": "系统磁盘清理",
-      "action": "open-cleanmgr",
-      "icon": "Trash",
-      "desc": "调用系统磁盘清理"
-    },
-    {
-      "id": "clean-deep",
-      "name": "高级垃圾清理",
-      "action": "clean-deep",
-      "icon": "Broom",
-      "desc": "临时文件 + 预读缓存"
-    },
-    {
-      "id": "toggle-hibernate",
-      "name": "禁用/恢复休眠",
-      "action": "toggle-hibernate",
-      "icon": "Battery",
-      "desc": "释放或恢复 hiberfil.sys"
-    },
-    {
-      "id": "run-regedit",
-      "name": "打开注册表",
-      "action": "run-regedit",
-      "icon": "Registry",
-      "desc": "regedit 注册表编辑器"
-    },
-    {
-      "id": "shutdown",
-      "name": "关机",
-      "action": "shutdown",
-      "icon": "Power",
-      "desc": "关机（10 秒倒计时）"
-    },
-    {
-      "id": "restart",
-      "name": "重启",
-      "action": "restart",
-      "icon": "Restart",
-      "desc": "重启（10 秒倒计时）"
-    },
-    {
-      "id": "logoff",
-      "name": "注销",
-      "action": "logoff",
-      "icon": "LogOff",
-      "desc": "注销当前用户"
-    }
-  ],
-  "groups": [
-    {
-      "name": "系统功能",
-      "icon": "Grid",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "cpu工具",
-      "icon": "Cpu",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "AIDA64",
-          "entry": "aida64.exe",
-          "desc": "",
-          "args": "",
-          "archive": {
-            "path": "",
-            "size": 47816853,
-            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
-            "parts": [
-              {
-                "path": "tools/parts/aida64.part01",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/aida64.part02",
-                "size": 22651029
-              }
-            ]
-          }
-        },
-        {
-          "name": "CPUZ",
-          "entry": "cpuz64.exe",
-          "desc": "",
-          "args": "",
-          "archive": {
-            "path": "tools/cpu工具/cpuz.zip",
-            "size": 3456999,
-            "sha256": "b6e54edc8286718413d855a3ae0fb637a2aca5ed7455e83b2375d32410820096"
-          }
-        },
-        {
-          "name": "CoreTemp1151",
-          "entry": "CoreTemp32/Core Temp.exe",
-          "desc": "",
-          "args": "",
-          "archive": {
-            "path": "tools/cpu工具/coretemp1151.zip",
-            "size": 1683381,
-            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
-          }
-        }
-      ]
-    },
-    {
-      "name": "内存工具",
-      "icon": "Memory",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "主板工具",
-      "icon": "Board",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "显卡工具",
-      "icon": "Gpu",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "显示器工具",
-      "icon": "Monitor",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "磁盘工具",
-      "icon": "Disk",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "综合检测",
-      "icon": "Shield",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "系统优化",
-      "icon": "Tune",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "禁用更新",
-      "icon": "Lock",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "驱动工具",
-      "icon": "Drive",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "系统工具",
-      "icon": "Gear",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "任务栏美化",
-      "icon": "Brush",
-      "version": "",
-      "desc": "",
-      "items": []
-    }
-  ]
+    "schema":  6,
+    "updatedAt":  "2026-11-15",
+    "site":  "https://www.wintool.cc/",
+    "baseUrl":  "https://api.wintool.cc/",
+    "categories":  [
+                       "cpu工具",
+                       "内存工具",
+                       "主板工具",
+                       "显卡工具",
+                       "显示器工具",
+                       "磁盘工具",
+                       "综合检测",
+                       "系统优化",
+                       "禁用更新",
+                       "驱动工具",
+                       "系统工具",
+                       "任务栏美化"
+                   ],
+    "actions":  [
+                    {
+                        "icon":  "Refresh",
+                        "name":  "重启资源管理器",
+                        "id":  "restart-explorer",
+                        "action":  "restart-explorer",
+                        "desc":  "任务栏/桌面卡住时用"
+                    },
+                    {
+                        "icon":  "Grid",
+                        "name":  "重建图标缓存",
+                        "id":  "rebuild-icons",
+                        "action":  "rebuild-icons",
+                        "desc":  "图标错乱、白图标"
+                    },
+                    {
+                        "icon":  "Info",
+                        "name":  "打开关于系统",
+                        "id":  "about-os",
+                        "action":  "about-os",
+                        "desc":  "查看系统版本与硬件"
+                    },
+                    {
+                        "icon":  "Trash",
+                        "name":  "系统磁盘清理",
+                        "id":  "cleanmgr",
+                        "action":  "open-cleanmgr",
+                        "desc":  "调用系统磁盘清理"
+                    },
+                    {
+                        "icon":  "Broom",
+                        "name":  "高级垃圾清理",
+                        "id":  "clean-deep",
+                        "action":  "clean-deep",
+                        "desc":  "临时文件 + 预读缓存"
+                    },
+                    {
+                        "icon":  "Battery",
+                        "name":  "禁用/恢复休眠",
+                        "id":  "toggle-hibernate",
+                        "action":  "toggle-hibernate",
+                        "desc":  "释放或恢复 hiberfil.sys"
+                    },
+                    {
+                        "icon":  "Registry",
+                        "name":  "打开注册表",
+                        "id":  "run-regedit",
+                        "action":  "run-regedit",
+                        "desc":  "regedit 注册表编辑器"
+                    },
+                    {
+                        "icon":  "Power",
+                        "name":  "关机",
+                        "id":  "shutdown",
+                        "action":  "shutdown",
+                        "desc":  "关机（10 秒倒计时）"
+                    },
+                    {
+                        "icon":  "Restart",
+                        "name":  "重启",
+                        "id":  "restart",
+                        "action":  "restart",
+                        "desc":  "重启（10 秒倒计时）"
+                    },
+                    {
+                        "icon":  "LogOff",
+                        "name":  "注销",
+                        "id":  "logoff",
+                        "action":  "logoff",
+                        "desc":  "注销当前用户"
+                    }
+                ],
+    "groups":  [
+                   {
+                       "name":  "cpu工具",
+                       "icon":  "Cpu",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "CPUZ",
+                                         "entry":  "cpuz64.exe",
+                                         "desc":  "CPU 检测",
+                                         "args":  "",
+                                         "archive":  {
+                                                         "path":  "tools/cpuz.zip",
+                                                         "size":  3456999,
+                                                         "sha256":  "b6e54edc8286718413d855a3ae0fb637a2aca5ed7455e83b2375d32410820096"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "Core Temp",
+                                         "entry":  "CoreTemp64/Core Temp.exe",
+                                         "desc":  "CPU 温度",
+                                         "args":  "",
+                                         "archive":  {
+                                                         "path":  "tools/coretemp1151.zip",
+                                                         "size":  1683381,
+                                                         "sha256":  "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "内存工具",
+                       "icon":  "Memory",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "主板工具",
+                       "icon":  "Board",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "显卡工具",
+                       "icon":  "Gpu",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "显示器工具",
+                       "icon":  "Monitor",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "磁盘工具",
+                       "icon":  "Disk",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "综合检测",
+                       "icon":  "Shield",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "系统优化",
+                       "icon":  "Tune",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "禁用更新",
+                       "icon":  "Lock",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "驱动工具",
+                       "icon":  "Drive",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "系统工具",
+                       "icon":  "Gear",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "任务栏美化",
+                       "icon":  "Brush",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   }
+               ]
 }
