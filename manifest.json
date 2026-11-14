@@ -1,18 +1,6 @@
 ﻿{
     "tools":  [
-                  {
-                      "id":  "demo",
-                      "name":  "演示工具",
-                      "entry":  "demo.exe",
-                      "archive":  {
-                                      "path":  "tools/demo.zip",
-                                      "sha256":  "377f90063ce4bfa22d5873f54beadc5abfbad49b1c4f7500fc6de516abd57e55",
-                                      "size":  243
-                                  },
-                      "args":  "",
-                      "category":  "检测",
-                      "version":  "1.0.0"
-                  }
+
               ],
     "schema":  4,
     "site":  "https://www.wintool.cc/",
