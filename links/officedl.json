@@ -1,9 +1,7 @@
-﻿{
-    "updatedAt":  "2026-11-15",
-    "title":  "Ms office 下载",
-    "page":  "officedl",
-    "items":  [
-
-              ],
-    "version":  1
+{
+  "page": "officedl",
+  "title": "Ms office 下载",
+  "version": 1,
+  "updatedAt": "2026-11-15",
+  "items": []
 }
