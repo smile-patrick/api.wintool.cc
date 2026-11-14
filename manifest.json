@@ -4,16 +4,24 @@
     "site":  "https://www.wintool.cc/",
     "baseUrl":  "https://api.wintool.cc/",
     "categories":  [
-                       "检测",
-                       "优化",
-                       "美化",
-                       "管理"
+                       "cpu工具",
+                       "内存工具",
+                       "主板工具",
+                       "显卡工具",
+                       "显示器工具",
+                       "磁盘工具",
+                       "综合检测",
+                       "系统优化",
+                       "禁用更新",
+                       "驱动工具",
+                       "系统工具",
+                       "任务栏美化"
                    ],
     "tools":  [
                   {
                       "id":  "restart-explorer",
                       "name":  "重启资源管理器",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "restart-explorer",
                       "icon":  "Refresh",
@@ -22,7 +30,7 @@
                   {
                       "id":  "rebuild-icons",
                       "name":  "重建图标缓存",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "rebuild-icons",
                       "icon":  "Grid",
@@ -31,7 +39,7 @@
                   {
                       "id":  "about-os",
                       "name":  "打开关于系统",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "about-os",
                       "icon":  "Info",
@@ -40,7 +48,7 @@
                   {
                       "id":  "cleanmgr",
                       "name":  "系统磁盘清理",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "open-cleanmgr",
                       "icon":  "Trash",
@@ -49,7 +57,7 @@
                   {
                       "id":  "clean-deep",
                       "name":  "高级垃圾清理",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "clean-deep",
                       "icon":  "Broom",
@@ -58,7 +66,7 @@
                   {
                       "id":  "toggle-hibernate",
                       "name":  "禁用/恢复休眠",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "toggle-hibernate",
                       "icon":  "Battery",
@@ -67,7 +75,7 @@
                   {
                       "id":  "run-regedit",
                       "name":  "打开注册表",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "run-regedit",
                       "icon":  "Registry",
@@ -76,7 +84,7 @@
                   {
                       "id":  "shutdown",
                       "name":  "关机",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "shutdown",
                       "icon":  "Power",
@@ -85,7 +93,7 @@
                   {
                       "id":  "restart",
                       "name":  "重启",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "restart",
                       "icon":  "Restart",
@@ -94,7 +102,7 @@
                   {
                       "id":  "logoff",
                       "name":  "注销",
-                      "category":  "系统",
+                      "category":  "系统功能",
                       "version":  "1.0.0",
                       "action":  "logoff",
                       "icon":  "LogOff",
