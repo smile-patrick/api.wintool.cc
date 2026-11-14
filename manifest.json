@@ -1,0 +1,19 @@
+﻿{
+    "tools":  [
+
+              ],
+    "schema":  4,
+    "site":  "https://www.wintool.cc/",
+    "baseUrl":  "https://api.wintool.cc/",
+    "categories":  [
+                       "检测",
+                       "维护",
+                       "清理",
+                       "优化",
+                       "磁盘",
+                       "系统",
+                       "美化",
+                       "其他"
+                   ],
+    "updatedAt":  "2026-11-15"
+}
