@@ -1,8 +1,98 @@
 {
-  "schema": 4,
-  "updatedAt": "2026-11-15",
-  "site": "https://www.wintool.cc/",
-  "baseUrl": "https://api.wintool.cc/",
-  "categories": ["检测", "维护", "清理", "优化", "磁盘", "系统", "美化", "其他"],
-  "tools": []
+    "schema":  4,
+    "updatedAt":  "2026-11-15",
+    "site":  "https://www.wintool.cc/",
+    "baseUrl":  "https://api.wintool.cc/",
+    "categories":  [
+                       "系统",
+                       "检测",
+                       "优化",
+                       "美化",
+                       "管理",
+                       "磁盘",
+                       "清理",
+                       "其他"
+                   ],
+    "tools":  [
+                  {
+                      "id":  "restart-explorer",
+                      "name":  "重启资源管理器",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "restart-explorer",
+                      "desc":  "任务栏/桌面卡住时用"
+                  },
+                  {
+                      "id":  "rebuild-icons",
+                      "name":  "重建图标缓存",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "rebuild-icons",
+                      "desc":  "图标显示错乱、白色图标"
+                  },
+                  {
+                      "id":  "open-about",
+                      "name":  "打开关于系统",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "open-about",
+                      "desc":  "查看系统版本与硬件信息"
+                  },
+                  {
+                      "id":  "cleanmgr",
+                      "name":  "系统磁盘清理",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "open-cleanmgr",
+                      "desc":  "调用系统自带的磁盘清理"
+                  },
+                  {
+                      "id":  "clean-deep",
+                      "name":  "高级垃圾清理",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "clean-deep",
+                      "desc":  "临时文件 + 预读缓存"
+                  },
+                  {
+                      "id":  "toggle-hibernate",
+                      "name":  "禁用/恢复休眠",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "toggle-hibernate",
+                      "desc":  "释放或恢复 hiberfil.sys"
+                  },
+                  {
+                      "id":  "open-regedit",
+                      "name":  "打开注册表",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "open-regedit",
+                      "desc":  "regedit 注册表编辑器"
+                  },
+                  {
+                      "id":  "shutdown",
+                      "name":  "关机",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "shutdown",
+                      "desc":  "关机（10 秒倒计时）"
+                  },
+                  {
+                      "id":  "restart",
+                      "name":  "重启",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "restart",
+                      "desc":  "重启（10 秒倒计时）"
+                  },
+                  {
+                      "id":  "logoff",
+                      "name":  "注销",
+                      "category":  "系统",
+                      "version":  "1.0.0",
+                      "action":  "logoff",
+                      "desc":  "注销当前用户"
+                  }
+              ]
 }
