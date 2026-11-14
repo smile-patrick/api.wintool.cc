@@ -185,20 +185,7 @@
       "icon": "Disk",
       "version": "",
       "desc": "",
-      "items": [
-        {
-          "name": "ASSSDBenchmark",
-          "entry": "ASSSDBenchmark.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "archive": {
-            "path": "tools/磁盘工具/asssdbenchmark.zip",
-            "size": 290032,
-            "sha256": "ca3717dbd0fc4dc5c36e54c64e5a49f370aad47b3d830bfdd8852380b3fc82f6"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "name": "综合检测",
