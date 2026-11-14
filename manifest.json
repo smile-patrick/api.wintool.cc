@@ -105,18 +105,6 @@
       "desc": "",
       "items": [
         {
-          "name": "CoreTemp1151",
-          "entry": "CoreTemp32/Core Temp.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "archive": {
-            "path": "tools/cpu工具/coretemp1151.zip",
-            "size": 1683381,
-            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
-          }
-        },
-        {
           "name": "CPUZ",
           "entry": "cpuz64.exe",
           "desc": "",
