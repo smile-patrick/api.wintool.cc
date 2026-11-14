@@ -3,6 +3,29 @@
   "updatedAt": "2026-11-15",
   "site": "https://www.wintool.cc/",
   "baseUrl": "https://api.wintool.cc/",
-  "categories": ["检测", "维护", "清理", "优化", "磁盘", "系统", "美化", "其他"],
-  "tools": []
+  "categories": [
+    "检测",
+    "维护",
+    "清理",
+    "优化",
+    "磁盘",
+    "系统",
+    "美化",
+    "其他"
+  ],
+  "tools": [
+    {
+      "id": "demo",
+      "name": "演示工具",
+      "category": "检测",
+      "version": "1.0.0",
+      "archive": {
+        "path": "tools/demo.zip",
+        "size": 417,
+        "sha256": "c174219935e8267e69ed18435329a435a9ca9744e5882570b044be2b47f60020"
+      },
+      "entry": "demo.exe",
+      "args": ""
+    }
+  ]
 }
