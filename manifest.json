@@ -103,7 +103,54 @@
       "icon": "Cpu",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "AIDA64",
+          "entry": "aida64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.1",
+          "archive": {
+            "path": "",
+            "size": 47816853,
+            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
+            "parts": [
+              {
+                "path": "tools/parts/aida64.part01",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/aida64.part02",
+                "size": 22651029
+              }
+            ]
+          }
+        },
+        {
+          "name": "CoreTemp1151",
+          "entry": "CoreTemp32/Core Temp.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "archive": {
+            "path": "tools/cpu工具/coretemp1151.zip",
+            "size": 1683381,
+            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
+          }
+        },
+        {
+          "name": "CPUZ",
+          "entry": "cpuz64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "archive": {
+            "path": "tools/cpu工具/cpuz.zip",
+            "size": 3456999,
+            "sha256": "b6e54edc8286718413d855a3ae0fb637a2aca5ed7455e83b2375d32410820096"
+          }
+        }
+      ]
     },
     {
       "name": "内存工具",
