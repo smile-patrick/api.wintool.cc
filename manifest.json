@@ -245,13 +245,7 @@
           "desc": "",
           "args": "",
           "version": "1.0.0",
-          "products": [
-            {
-              "name": "ramdisk（通用）",
-              "entry": "ramdisk.exe",
-              "arch": "通用"
-            }
-          ],
+          "products": [],
           "archive": {
             "path": "tools/内存工具/魔方内存盘.zip",
             "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__tool_6c1b.zip",
@@ -266,35 +260,444 @@
       "icon": "Board",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "AIDA64",
+          "entry": "AIDA64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "AIDA64",
+              "entry": "AIDA64.exe",
+              "arch": "64位"
+            }
+          ],
+          "archive": {
+            "path": "tools/主板工具/AIDA64.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g03__AIDA64_b509.zip",
+            "size": 2760758,
+            "sha256": "f01a0c8e34f6ef0ce4b9fcfb16048cec34c3654166b50678d8b4940f79a1e595"
+          }
+        }
+      ]
     },
     {
       "name": "显卡工具",
       "icon": "Gpu",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "CPUZ",
+          "entry": "cpuz64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "cpuz64",
+              "entry": "cpuz64.exe",
+              "arch": "64位"
+            },
+            {
+              "name": "cpuz86（32位）",
+              "entry": "cpuz86.exe",
+              "arch": "32位"
+            }
+          ],
+          "archive": {
+            "path": "tools/显卡工具/CPUZ.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g04__CPUZ_71ba.zip",
+            "size": 3272387,
+            "sha256": "1ac9445ce0779efc99ef1d60780c82d0b69a6f8e8fe16f4e350b0e0820e590c2"
+          }
+        },
+        {
+          "name": "gpuinfo",
+          "entry": "Gpuinfo.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Gpuinfo（通用）",
+              "entry": "Gpuinfo.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/显卡工具/gpuinfo.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g04__gpuinfo_d6bb.zip",
+            "size": 9620978,
+            "sha256": "8e380bb4629d834cd3f0e5a295a9a801b59e28dff40a3c05edadb991751c4a21"
+          }
+        }
+      ]
     },
     {
       "name": "显示器工具",
       "icon": "Monitor",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "displayx",
+          "entry": "DisplayX.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "DisplayX（通用）",
+              "entry": "DisplayX.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/显示器工具/displayx.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g05__displayx_21c3.zip",
+            "size": 25037,
+            "sha256": "41ec5c2dfc79cdf6eedafaffe9e2f9aa52c2e27cf925bf15c6344a8a9891aab4"
+          }
+        },
+        {
+          "name": "色域检测",
+          "entry": "monitorinfo.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "monitorinfo（通用）",
+              "entry": "monitorinfo.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/显示器工具/色域检测.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g05__tool_b2f8.zip",
+            "size": 569961,
+            "sha256": "b3b6149cbf3bc2938d908c9a40f596e092783df6c2e3307f0d47be3b619629aa"
+          }
+        }
+      ]
     },
     {
       "name": "磁盘工具",
       "icon": "Disk",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "魔方数据恢复",
+          "entry": "魔方数据恢复.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "魔方数据恢复（通用）",
+              "entry": "魔方数据恢复.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/魔方数据恢复.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__tool_ac90.zip",
+            "size": 267668,
+            "sha256": "b1d065ad2aa68b3edabc363d490aab2c35373b289320ca84765f891d5b627d93"
+          }
+        },
+        {
+          "name": "ASSSDBenchmark",
+          "entry": "ASSSDBenchmark.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "ASSSDBenchmark（通用）",
+              "entry": "ASSSDBenchmark.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/ASSSDBenchmark.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__ASSSDBenchmark_374d.zip",
+            "size": 290032,
+            "sha256": "ca3717dbd0fc4dc5c36e54c64e5a49f370aad47b3d830bfdd8852380b3fc82f6"
+          }
+        },
+        {
+          "name": "CrystalDiskInfo",
+          "entry": "DiskInfo64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "DiskInfo32",
+              "entry": "DiskInfo32.exe",
+              "arch": "32位"
+            },
+            {
+              "name": "DiskInfo64",
+              "entry": "DiskInfo64.exe",
+              "arch": "64位"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/CrystalDiskInfo.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__CrystalDiskInfo_66e0.zip",
+            "size": 15529537,
+            "sha256": "bfff0323fab2a54af6e9220a03047d30eacb70d07ef000d7ec709c477341b196"
+          }
+        },
+        {
+          "name": "Defraggler",
+          "entry": "Defraggler.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Defraggler（通用）",
+              "entry": "Defraggler.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/Defraggler.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__Defraggler_358b.zip",
+            "size": 1985090,
+            "sha256": "b3f1771622e10a15e67b222f24272ce12d8b06cb1eea219b09a7205ac8ea2350"
+          }
+        },
+        {
+          "name": "DiskGenius",
+          "entry": "DiskGenius.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "DiskGenius（通用）",
+              "entry": "DiskGenius.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__DiskGenius_c8e7.zip",
+            "size": 67339635,
+            "sha256": "11a6fa62ffbb41c540c09e7f2f85230dbeb0f3026aa3202e513201503aaff977",
+            "parts": [
+              {
+                "path": "tools/parts/DiskGenius.part01",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/DiskGenius.part02",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/DiskGenius.part03",
+                "size": 17007987
+              }
+            ]
+          }
+        },
+        {
+          "name": "SSDZ",
+          "entry": "SSDZ.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "SSDZ（通用）",
+              "entry": "SSDZ.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/SSDZ.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__SSDZ_a508.zip",
+            "size": 426965,
+            "sha256": "62d570b5e9925d9926e7d4d487c96cf2a1406c1cd8a5ce5c50533c07b346cae5"
+          }
+        },
+        {
+          "name": "ULTRAISO",
+          "entry": "ULTRAISO.EXE",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "ULTRAISO（通用）",
+              "entry": "ULTRAISO.EXE",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/ULTRAISO.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__ULTRAISO_586e.zip",
+            "size": 2255783,
+            "sha256": "6e5aeba8c37f083adbc73a303321bc2c50e7876aa72f481ddb369664c389954d"
+          }
+        },
+        {
+          "name": "refus",
+          "entry": "rufus.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "rufus（通用）",
+              "entry": "rufus.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/refus.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__refus_5ce4.zip",
+            "size": 1347802,
+            "sha256": "4f39d1b7fa65efe089969e0770cc55918cd390e66b551c7a1d3a5a584730b9a0"
+          }
+        },
+        {
+          "name": "UltraISO2",
+          "entry": "UltraISO.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "UltraISO（通用）",
+              "entry": "UltraISO.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/磁盘工具/UltraISO2.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__UltraISO2_fa50.zip",
+            "size": 1906072,
+            "sha256": "3081159e2668adac4a35aac3e2db3396f8e4da4cddd88576309c7f0a13ef1193"
+          }
+        }
+      ]
     },
     {
       "name": "综合检测",
       "icon": "Shield",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "AIDA64",
+          "entry": "aida64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "aida64",
+              "entry": "aida64.exe",
+              "arch": "64位"
+            }
+          ],
+          "archive": {
+            "path": "",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__AIDA64_b509.zip",
+            "size": 47816853,
+            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
+            "parts": [
+              {
+                "path": "tools/parts/AIDA64.part01",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/AIDA64.part02",
+                "size": 22651029
+              }
+            ]
+          }
+        },
+        {
+          "name": "CPUZ",
+          "entry": "cpuz64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "cpuz64",
+              "entry": "cpuz64.exe",
+              "arch": "64位"
+            },
+            {
+              "name": "cpuz86（32位）",
+              "entry": "cpuz86.exe",
+              "arch": "32位"
+            }
+          ],
+          "archive": {
+            "path": "tools/综合检测/CPUZ.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__CPUZ_71ba.zip",
+            "size": 3033419,
+            "sha256": "85381d0f97c9f2164b213557182021d0053544892181d54842df6389687af649"
+          }
+        },
+        {
+          "name": "speccy",
+          "entry": "Speccy64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Speccy（通用）",
+              "entry": "Speccy.exe",
+              "arch": "通用"
+            },
+            {
+              "name": "Speccy64",
+              "entry": "Speccy64.exe",
+              "arch": "64位"
+            }
+          ],
+          "archive": {
+            "path": "tools/综合检测/speccy.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__speccy_9272.zip",
+            "size": 5316142,
+            "sha256": "873376d1344520abe79125443505fe43bcc03e740d25f08e5b1be9fe128ed0f3"
+          }
+        },
+        {
+          "name": "图拉丁硬件检测",
+          "entry": "图拉丁硬件检测.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "图拉丁硬件检测（通用）",
+              "entry": "图拉丁硬件检测.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/综合检测/图拉丁硬件检测.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__tool_4727.zip",
+            "size": 746688,
+            "sha256": "f506419630e9bf4784f6c37bef80a9249ff684a3dae70c09d2b4835925e927d2"
+          }
+        }
+      ]
     },
     {
       "name": "系统优化",
