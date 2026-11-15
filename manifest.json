@@ -110,20 +110,23 @@
           "args": "",
           "version": "1.0.0",
           "archive": {
-            "path": "",
-            "url": "",
-            "size": 47816853,
-            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
-            "parts": [
-              {
-                "path": "tools/parts/aida64.part01",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/aida64.part02",
-                "size": 22651029
-              }
-            ]
+            "path": "tools/cpu工具/AIDA64.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/cpu.__AIDA64.zip",
+            "size": 1683381,
+            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
+          }
+        },
+        {
+          "name": "CoreTemp1151",
+          "entry": "CoreTemp32/Core Temp.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "archive": {
+            "path": "tools/cpu工具/CoreTemp1151.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/cpu.__CoreTemp1151.zip",
+            "size": 1683381,
+            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
           }
         }
       ]
