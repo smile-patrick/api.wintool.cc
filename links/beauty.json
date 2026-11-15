@@ -1,7 +1,65 @@
 {
-  "page": "beauty",
-  "title": "Windows 美化",
-  "version": 1,
-  "updatedAt": "2026-11-15",
-  "items": []
+    "schema":  2,
+    "page":  "beauty",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "title":  "Windows 美化",
+    "subtitle":  "透明任务栏 · 圆角窗口 · 图标包",
+    "bannerTitle":  "让系统更好看：美化资源合集",
+    "bannerSub":  "美化工具多为注入式，异常时先退出对应工具再排查",
+    "icon":  "Brush",
+    "tip":  "主题类资源建议先在虚拟机试用，避免影响系统稳定性。",
+    "items":  [
+                  {
+                      "title":  "Mica For Everyone",
+                      "kind":  "url",
+                      "target":  "https://github.com/MicaForEveryone/MicaForEveryone",
+                      "note":  "窗口材质与圆角",
+                      "badge":  "",
+                      "logo":  "site_github.png"
+                  },
+                  {
+                      "title":  "TranslucentTB",
+                      "kind":  "url",
+                      "target":  "https://github.com/TranslucentTB/TranslucentTB",
+                      "note":  "任务栏透明",
+                      "badge":  "",
+                      "logo":  "site_github.png"
+                  },
+                  {
+                      "title":  "StartAllBack",
+                      "kind":  "url",
+                      "target":  "https://www.startallback.com/",
+                      "note":  "开始菜单还原",
+                      "badge":  "",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "致美化",
+                      "kind":  "url",
+                      "target":  "https://zhutix.com/",
+                      "note":  "主题 / 图标 / 壁纸",
+                      "badge":  "",
+                      "logo":  "site_zhutix.png"
+                  },
+                  {
+                      "title":  "任务栏美化（win10）",
+                      "kind":  "tool",
+                      "target":  "任务栏美化（win10）",
+                      "note":  "工具包内置",
+                      "badge":  "本地",
+                      "logo":  ""
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "任务栏美化（win10）",
+                           "desc":  "工具包内的任务栏透明美化小工具。",
+                           "kind":  "tool",
+                           "target":  "任务栏美化（win10）",
+                           "button":  "打开目录",
+                           "icon":  "Brush",
+                           "logo":  ""
+                       }
+                   ]
 }
