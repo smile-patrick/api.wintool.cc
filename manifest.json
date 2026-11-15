@@ -110,14 +110,156 @@
       "icon": "Cpu",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "AIDA64",
+          "entry": "aida64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "aida64",
+              "entry": "aida64.exe",
+              "arch": "64位"
+            }
+          ],
+          "archive": {
+            "path": "",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__AIDA64_b509.zip",
+            "size": 47816853,
+            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
+            "parts": [
+              {
+                "path": "tools/parts/AIDA64.part01",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/AIDA64.part02",
+                "size": 22651029
+              }
+            ]
+          }
+        },
+        {
+          "name": "CoreTemp1151",
+          "entry": "CoreTemp64/Core Temp.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Core Temp（32位）",
+              "entry": "CoreTemp32/Core Temp.exe",
+              "arch": "32位"
+            },
+            {
+              "name": "Core Temp（64位）",
+              "entry": "CoreTemp64/Core Temp.exe",
+              "arch": "64位"
+            }
+          ],
+          "archive": {
+            "path": "tools/cpu工具/CoreTemp1151.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__CoreTemp1151_134c.zip",
+            "size": 1683381,
+            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
+          }
+        },
+        {
+          "name": "CPUZ",
+          "entry": "cpuz64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "cpuz64",
+              "entry": "cpuz64.exe",
+              "arch": "64位"
+            },
+            {
+              "name": "cpuz86（32位）",
+              "entry": "cpuz86.exe",
+              "arch": "32位"
+            }
+          ],
+          "archive": {
+            "path": "tools/cpu工具/CPUZ.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__CPUZ_71ba.zip",
+            "size": 3456999,
+            "sha256": "b6e54edc8286718413d855a3ae0fb637a2aca5ed7455e83b2375d32410820096"
+          }
+        }
+      ]
     },
     {
       "name": "内存工具",
       "icon": "Memory",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "memtest",
+          "entry": "memtest.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "memtest（通用）",
+              "entry": "memtest.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/内存工具/memtest.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__memtest_b63d.zip",
+            "size": 8714,
+            "sha256": "57ec6b3d5ba0ef6e73d815343fcb93fe8387af42dda119e5604cd0e60dff8a40"
+          }
+        },
+        {
+          "name": "memtestpro",
+          "entry": "memtestpro.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "memtestpro（通用）",
+              "entry": "memtestpro.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/内存工具/memtestpro.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__memtestpro_a89b.zip",
+            "size": 15508,
+            "sha256": "10c9376d80c1141574e138246f32252b7804df8fccdef61b036fe60615795af1"
+          }
+        },
+        {
+          "name": "魔方内存盘",
+          "entry": "ramdisk.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "ramdisk（通用）",
+              "entry": "ramdisk.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/内存工具/魔方内存盘.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__tool_6c1b.zip",
+            "size": 278161,
+            "sha256": "b4e40338948e724444c21c61f3c4f2246895ac245d0ccc205dde7203cf7aafcf"
+          }
+        }
+      ]
     },
     {
       "name": "主板工具",
@@ -159,60 +301,7 @@
       "icon": "Tune",
       "version": "",
       "desc": "",
-      "items": [
-        {
-          "name": "Dism++",
-          "entry": "Dism++x64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "Dism++ARM64",
-              "entry": "Dism++ARM64.exe",
-              "arch": "ARM64"
-            },
-            {
-              "name": "Dism++x64",
-              "entry": "Dism++x64.exe",
-              "arch": "64位"
-            },
-            {
-              "name": "Dism++x86（32位）",
-              "entry": "Dism++x86.exe",
-              "arch": "32位"
-            }
-          ],
-          "archive": {
-            "path": "",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Dism_5b4e.zip",
-            "size": 103707677,
-            "sha256": "ea3d6c0920185f3164ff527f398d89c0310287743855e73d79ac1855c27e7607",
-            "parts": [
-              {
-                "path": "tools/parts/Dism++.part01",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part02",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part03",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part04",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part05",
-                "size": 3044381
-              }
-            ]
-          }
-        }
-      ]
+      "items": []
     },
     {
       "name": "禁用更新",
