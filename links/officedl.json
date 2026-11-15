@@ -1,7 +1,65 @@
 {
-  "page": "officedl",
-  "title": "Ms office 下载",
-  "version": 1,
-  "updatedAt": "2026-11-15",
-  "items": []
+    "schema":  2,
+    "page":  "officedl",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "title":  "Ms office 下载",
+    "subtitle":  "官方镜像 · 自动激活 · 纯净无广告",
+    "bannerTitle":  "Office 部署与下载",
+    "bannerSub":  "推荐 Office Tool Plus：按需下载组件并自带激活入口",
+    "icon":  "Doc",
+    "tip":  "安装前请卸载已有的 Office 残留，避免版本冲突导致安装失败。",
+    "items":  [
+                  {
+                      "title":  "Office Tool Plus 官网",
+                      "kind":  "url",
+                      "target":  "https://otp.landian.vip/zh-cn/",
+                      "note":  "带激活功能，推荐下载",
+                      "badge":  "推荐",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "Office Tool Plus 使用教程",
+                      "kind":  "url",
+                      "target":  "https://zhuanlan.zhihu.com/p/55136112",
+                      "note":  "图文教程",
+                      "badge":  "",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "各版本 Office 下载",
+                      "kind":  "url",
+                      "target":  "https://www.officeba.com.cn/",
+                      "note":  "2010 ~ 2024 合集",
+                      "badge":  "",
+                      "logo":  "site_officeba.png"
+                  },
+                  {
+                      "title":  "Office 2016 下载",
+                      "kind":  "url",
+                      "target":  "http://www.xitongtiandi.net/soft_yy/2078.html",
+                      "note":  "经典版本",
+                      "badge":  "",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "Office 2007 精简版",
+                      "kind":  "url",
+                      "target":  "https://www.onlinedown.net/soft/578404.htm",
+                      "note":  "老机器适用",
+                      "badge":  "",
+                      "logo":  ""
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "Office Tool Plus",
+                           "desc":  "一键部署与激活，可按系统自动匹配 Office 版本。",
+                           "kind":  "url",
+                           "target":  "https://otp.landian.vip/zh-cn/",
+                           "button":  "打开官网",
+                           "icon":  "Doc",
+                           "logo":  ""
+                       }
+                   ]
 }
