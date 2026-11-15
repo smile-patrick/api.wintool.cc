@@ -1,7 +1,90 @@
 {
-  "page": "winpe",
-  "title": "Windows PE",
-  "version": 1,
-  "updatedAt": "2026-11-15",
-  "items": []
+    "schema":  2,
+    "page":  "winpe",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "title":  "Windows PE",
+    "subtitle":  "纯净 PE · 无广告 · 支持 NVMe",
+    "bannerTitle":  "启动盘制作工具合集",
+    "bannerSub":  "以下均为测试筛选过的纯净 PE，制作前请备份 U 盘数据",
+    "icon":  "Usb",
+    "tip":  "制作启动盘会格式化 U 盘；PE 内的工具请勿随意运行来路不明的版本。",
+    "items":  [
+                  {
+                      "title":  "FirPE 维护系统",
+                      "kind":  "url",
+                      "target":  "https://firpe.cn/page-247",
+                      "note":  "官方推荐",
+                      "badge":  "推荐",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "微 PE 工具箱",
+                      "kind":  "url",
+                      "target":  "https://www.wepe.com.cn/",
+                      "note":  "纯净经典",
+                      "badge":  "推荐",
+                      "logo":  "site_wepe.png"
+                  },
+                  {
+                      "title":  "Edgeless PE",
+                      "kind":  "url",
+                      "target":  "https://home.edgeless.top/",
+                      "note":  "可扩展插件化 PE",
+                      "badge":  "",
+                      "logo":  "site_edgeless.png"
+                  },
+                  {
+                      "title":  "USM U 盘魔术师",
+                      "kind":  "url",
+                      "target":  "https://www.sysceo.com/usm.html",
+                      "note":  "驱动齐全",
+                      "badge":  "",
+                      "logo":  "site_usm.png"
+                  },
+                  {
+                      "title":  "WinOS",
+                      "kind":  "url",
+                      "target":  "https://www.winos.me/",
+                      "note":  "系统与 PE 合集",
+                      "badge":  "",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "果核剥壳 · PE 分类",
+                      "kind":  "url",
+                      "target":  "https://www.ghxi.com/category/all/system/winpe",
+                      "note":  "PE 分类页",
+                      "badge":  "",
+                      "logo":  "site_ghxi.png"
+                  },
+                  {
+                      "title":  "CowPE",
+                      "kind":  "url",
+                      "target":  "https://cowpe.myzqw.cn/project/8c11",
+                      "note":  "轻量维护",
+                      "badge":  "",
+                      "logo":  ""
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "FirPE 制作工具",
+                           "desc":  "集成大量维护工具，支持 UEFI 与 Legacy 双启动。",
+                           "kind":  "url",
+                           "target":  "https://firpe.cn/page-247",
+                           "button":  "打开官网",
+                           "icon":  "Fire",
+                           "logo":  ""
+                       },
+                       {
+                           "title":  "微 PE 工具箱",
+                           "desc":  "体积小、无捆绑，老机器也能顺畅运行。",
+                           "kind":  "url",
+                           "target":  "https://www.wepe.com.cn/",
+                           "button":  "打开官网",
+                           "icon":  "Usb",
+                           "logo":  "site_wepe.png"
+                       }
+                   ]
 }
