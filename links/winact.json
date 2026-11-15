@@ -1,7 +1,66 @@
 {
-  "page": "winact",
-  "title": "Windows 激活",
-  "version": 1,
-  "updatedAt": "2026-11-15",
-  "items": []
+    "schema":  2,
+    "page":  "winact",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "title":  "Windows 激活",
+    "subtitle":  "离线激活 · 数字权利 · 一键完成",
+    "bannerTitle":  "KMS 激活与数字权利说明",
+    "bannerSub":  "工具取自工具包 plugin 目录，未安装请先到下载中心获取",
+    "icon":  "Key",
+    "tip":  "激活类工具可能被杀毒软件误报，使用前可自行送检；仅用于学习测试，请支持正版。",
+    "items":  [
+                  {
+                      "title":  "HEU KMS Activator",
+                      "kind":  "tool",
+                      "target":  "HEU_KMS_Activator_v19.6.3.exe",
+                      "note":  "工具包内置 · 推荐",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "Windows 10 小马激活",
+                      "kind":  "tool",
+                      "target":  "win7kms.exe",
+                      "note":  "工具包内置",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "激活状态检测",
+                      "kind":  "tool",
+                      "target":  "激活检测.cmd",
+                      "note":  "检查当前激活状态",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "微软账户数字权利",
+                      "kind":  "url",
+                      "target":  "https://support.microsoft.com/zh-cn/windows",
+                      "note":  "官方说明",
+                      "badge":  "官方",
+                      "logo":  "site_microsoft.png"
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "heukms 全本版激活工具",
+                           "desc":  "支持 Win7 ~ Win11 与 Office 全系列，内置多种激活模式。",
+                           "kind":  "tool",
+                           "target":  "HEU_KMS_Activator_v19.6.3.exe",
+                           "button":  "启动工具",
+                           "icon":  "Shield",
+                           "logo":  ""
+                       },
+                       {
+                           "title":  "kms 神龙版激活工具",
+                           "desc":  "图形化 KMS 服务器配置，适合局域网批量激活。",
+                           "kind":  "tool",
+                           "target":  "win7kms.exe",
+                           "button":  "启动工具",
+                           "icon":  "Key",
+                           "logo":  ""
+                       }
+                   ]
 }
