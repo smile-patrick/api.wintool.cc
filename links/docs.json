@@ -1,57 +1,44 @@
 {
-    "schema":  2,
-    "page":  "docs",
-    "version":  2,
-    "updatedAt":  "2026-11-16",
-    "title":  "教程文档",
-    "subtitle":  "全部离线入库 · 随工具包更新",
-    "bannerTitle":  "装机与维护文档",
-    "bannerSub":  "文档位于 plugin\\\\教程文档，需先下载「教程文档」工具包",
-    "icon":  "Book",
-    "tip":  "文档为 doc / docx 格式，可用系统自带的 WordPad 或 WPS 打开。",
-    "items":  [
-                  {
-                      "title":  "ESD 文件直接装机教程.docx",
-                      "kind":  "tool",
-                      "target":  "ESD文件直接装机教程.docx",
-                      "note":  "免 U 盘装机",
-                      "badge":  "本地",
-                      "logo":  ""
-                  },
-                  {
-                      "title":  "U 盘安装双系统教程.docx",
-                      "kind":  "tool",
-                      "target":  "U盘安装双系统教程.docx",
-                      "note":  "双系统引导",
-                      "badge":  "本地",
-                      "logo":  ""
-                  },
-                  {
-                      "title":  "升级到 win10 后蓝屏 / 无限重启解决方案.docx",
-                      "kind":  "tool",
-                      "target":  "升级到win10后蓝屏，无限重启解决方案.docx",
-                      "note":  "常见故障",
-                      "badge":  "本地",
-                      "logo":  ""
-                  },
-                  {
-                      "title":  "系统安装教程大全.doc",
-                      "kind":  "tool",
-                      "target":  "系统安装教程大全.doc",
-                      "note":  "全流程",
-                      "badge":  "本地",
-                      "logo":  ""
-                  },
-                  {
-                      "title":  "论 OneDrive 的各种禁用方法.doc",
-                      "kind":  "tool",
-                      "target":  "论OneDrive的各种禁用方法.doc",
-                      "note":  "系统精简",
-                      "badge":  "本地",
-                      "logo":  ""
-                  }
-              ],
-    "recommends":  [
-
-                   ]
+  "schema": 2,
+  "page": "docs",
+  "version": 2,
+  "updatedAt": "2026-11-16",
+  "items": [
+    {
+      "title": "ESD \u6587\u4EF6\u76F4\u63A5\u88C5\u673A\u6559\u7A0B.docx",
+      "kind": "tool",
+      "target": "ESD\u6587\u4EF6\u76F4\u63A5\u88C5\u673A\u6559\u7A0B.docx",
+      "note": "\u514D U \u76D8\u88C5\u673A",
+      "badge": "\u672C\u5730"
+    },
+    {
+      "title": "U \u76D8\u5B89\u88C5\u53CC\u7CFB\u7EDF\u6559\u7A0B.docx",
+      "kind": "tool",
+      "target": "U\u76D8\u5B89\u88C5\u53CC\u7CFB\u7EDF\u6559\u7A0B.docx",
+      "note": "\u53CC\u7CFB\u7EDF\u5F15\u5BFC",
+      "badge": "\u672C\u5730"
+    },
+    {
+      "title": "\u5347\u7EA7\u5230 win10 \u540E\u84DD\u5C4F / \u65E0\u9650\u91CD\u542F\u89E3\u51B3\u65B9\u6848.docx",
+      "kind": "tool",
+      "target": "\u5347\u7EA7\u5230win10\u540E\u84DD\u5C4F\uFF0C\u65E0\u9650\u91CD\u542F\u89E3\u51B3\u65B9\u6848.docx",
+      "note": "\u5E38\u89C1\u6545\u969C",
+      "badge": "\u672C\u5730"
+    },
+    {
+      "title": "\u7CFB\u7EDF\u5B89\u88C5\u6559\u7A0B\u5927\u5168.doc",
+      "kind": "tool",
+      "target": "\u7CFB\u7EDF\u5B89\u88C5\u6559\u7A0B\u5927\u5168.doc",
+      "note": "\u5168\u6D41\u7A0B",
+      "badge": "\u672C\u5730"
+    },
+    {
+      "title": "\u8BBA OneDrive \u7684\u5404\u79CD\u7981\u7528\u65B9\u6CD5.doc",
+      "kind": "tool",
+      "target": "\u8BBAOneDrive\u7684\u5404\u79CD\u7981\u7528\u65B9\u6CD5.doc",
+      "note": "\u7CFB\u7EDF\u7CBE\u7B80",
+      "badge": "\u672C\u5730"
+    }
+  ],
+  "recommends": []
 }
