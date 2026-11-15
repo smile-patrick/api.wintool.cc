@@ -4,6 +4,7 @@
   "site": "https://www.wintool.cc/",
   "baseUrl": "https://api.wintool.cc/",
   "categories": [
+    "系统功能",
     "cpu工具",
     "内存工具",
     "主板工具",
@@ -98,35 +99,18 @@
   ],
   "groups": [
     {
+      "name": "系统功能",
+      "icon": "Grid",
+      "version": "",
+      "desc": "",
+      "items": []
+    },
+    {
       "name": "cpu工具",
       "icon": "Cpu",
       "version": "",
       "desc": "",
-      "items": [
-        {
-          "name": "AIDA64",
-          "entry": "aida64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "archive": {
-            "path": "",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__AIDA64_b509.zip",
-            "size": 47816853,
-            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
-            "parts": [
-              {
-                "path": "tools/parts/AIDA64.part01",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/AIDA64.part02",
-                "size": 22651029
-              }
-            ]
-          }
-        }
-      ]
+      "items": []
     },
     {
       "name": "内存工具",
@@ -175,7 +159,60 @@
       "icon": "Tune",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "Dism++",
+          "entry": "Dism++x64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Dism++ARM64",
+              "entry": "Dism++ARM64.exe",
+              "arch": "ARM64"
+            },
+            {
+              "name": "Dism++x64",
+              "entry": "Dism++x64.exe",
+              "arch": "64位"
+            },
+            {
+              "name": "Dism++x86（32位）",
+              "entry": "Dism++x86.exe",
+              "arch": "32位"
+            }
+          ],
+          "archive": {
+            "path": "",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Dism_5b4e.zip",
+            "size": 103707677,
+            "sha256": "ea3d6c0920185f3164ff527f398d89c0310287743855e73d79ac1855c27e7607",
+            "parts": [
+              {
+                "path": "tools/parts/Dism++.part01",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part02",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part03",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part04",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part05",
+                "size": 3044381
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "禁用更新",
