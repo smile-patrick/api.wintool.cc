@@ -502,35 +502,357 @@
       "icon": "Tune",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "360断网急救箱",
+          "entry": "360断网急救箱.exe",
+          "desc": "360断网急救箱",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "360断网急救箱（通用）",
+              "entry": "360断网急救箱.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统优化/360断网急救箱.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__360_2ae9.zip",
+            "size": 3035941,
+            "sha256": "a649aa99e752618a46fc1908a5a61b088ce50adac3bad556d3c5fd434e72c698"
+          }
+        },
+        {
+          "name": "Dism++",
+          "entry": "Dism++x64.exe",
+          "desc": "由初雨团队开发的开源免费 Windows 系统优化工具，基于 CBS 底层 API，提供深度清理、启动管理 …",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Dism++ARM64",
+              "entry": "Dism++ARM64.exe",
+              "arch": "ARM64"
+            },
+            {
+              "name": "Dism++x64",
+              "entry": "Dism++x64.exe",
+              "arch": "64位"
+            },
+            {
+              "name": "Dism++x86（32位）",
+              "entry": "Dism++x86.exe",
+              "arch": "32位"
+            }
+          ],
+          "archive": {
+            "path": "",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Dism_5b4e.zip",
+            "size": 103707677,
+            "sha256": "ea3d6c0920185f3164ff527f398d89c0310287743855e73d79ac1855c27e7607",
+            "parts": [
+              {
+                "path": "tools/parts/Dism++.part01",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part02",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part03",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part04",
+                "size": 25165824
+              },
+              {
+                "path": "tools/parts/Dism++.part05",
+                "size": 3044381
+              }
+            ]
+          }
+        },
+        {
+          "name": "火绒弹窗拦截独立版",
+          "entry": "弹窗拦截.exe",
+          "desc": "从火绒分离出来的弹窗拦截独立版（不确定可用性）",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "弹窗拦截（通用）",
+              "entry": "弹窗拦截.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统优化/火绒弹窗拦截独立版.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__tool_990f.zip",
+            "size": 2706507,
+            "sha256": "6531264b3ff2de0aed6c61390cceae7f477da1572a80c7176dfd67c474d3df2a"
+          }
+        },
+        {
+          "name": "Defender工具",
+          "entry": "禁用安全中心.exe",
+          "desc": "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "禁用安全中心（通用）",
+              "entry": "禁用安全中心.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统优化/Defender工具.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Defender_3c33.zip",
+            "size": 401667,
+            "sha256": "d39997d3ca255819f548651228fa2b7c490d400cdd25333cc7bf6709c6347ad5"
+          }
+        },
+        {
+          "name": "DFControl",
+          "entry": "Defender_Control_2.1.0_Single.exe",
+          "desc": "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Defender_Control_2.1.0_Single（通用）",
+              "entry": "Defender_Control_2.1.0_Single.exe",
+              "arch": "通用"
+            },
+            {
+              "name": "DFControl（通用）",
+              "entry": "DFControl.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统优化/DFControl.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__DFControl_2c17.zip",
+            "size": 895692,
+            "sha256": "0165232a3d3b00ddc34cebc311c5cb48cb19e26d98a557305261efc25883d8c2"
+          }
+        },
+        {
+          "name": "WDControl",
+          "entry": "WDControl.exe",
+          "desc": "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "WDControl（通用）",
+              "entry": "WDControl.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统优化/WDControl.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__WDControl_24db.zip",
+            "size": 587898,
+            "sha256": "d0150c822c61f2ef94110f516cb66aafb0556ebcd4dd883ad2d7ead6707c6b1c"
+          }
+        }
+      ]
     },
     {
       "name": "禁用更新",
       "icon": "Lock",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "Wub",
+          "entry": "Wub.exe",
+          "desc": "一键禁用/恢复Windows自动更新",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Wub（通用）",
+              "entry": "Wub.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/禁用更新/Wub.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g09__Wub_662c.zip",
+            "size": 491588,
+            "sha256": "75cf048d03075fef7024abec61f9e803149b3c05b29688e60da29b9728720227"
+          }
+        }
+      ]
     },
     {
       "name": "驱动工具",
       "icon": "Drive",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "360驱动大师",
+          "entry": "360驱动大师.exe",
+          "desc": "360的驱动大师（Windows10/11建议使用官方驱动）",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "360驱动大师（通用）",
+              "entry": "360驱动大师.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/驱动工具/360驱动大师.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g10__360_c8f3.zip",
+            "size": 8599861,
+            "sha256": "bac622dd0ff8cbad7ff796ea8246d2e25c2c8191bbc11d6a0e38df2a6fca464c"
+          }
+        },
+        {
+          "name": "驱动精灵",
+          "entry": "驱动精灵.exe",
+          "desc": "一款经典的驱动工具，可自动检测未安装的驱动（Windows10/11建议使用官方驱动）",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "驱动精灵（通用）",
+              "entry": "驱动精灵.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/驱动工具/驱动精灵.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g10__tool_9816.zip",
+            "size": 9971472,
+            "sha256": "d0e08ae2423e0df74f00db7e2e2b58a2bf21eb10089dc9218b07d00098661195"
+          }
+        }
+      ]
     },
     {
       "name": "系统工具",
       "icon": "Gear",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "FastStone Capture桌面小工具",
+          "entry": "FastStone Capture桌面小工具.exe",
+          "desc": "桌面小工具",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "FastStone Capture桌面小工具（通用）",
+              "entry": "FastStone Capture桌面小工具.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统工具/FastStone Capture桌面小工具.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__FastStone_Capture_b776.zip",
+            "size": 3182688,
+            "sha256": "660031ca6b6b53ec11dc5dcb3339d3ced8a8022970da1f30940861729db951f8"
+          }
+        },
+        {
+          "name": "geek强力卸载工具",
+          "entry": "geek强力卸载工具.exe",
+          "desc": "geek是一款强大全面的卸载工具，支持卸载后自动寻找残留的项目以及注册表项目并删除，可强制卸载软件",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "geek强力卸载工具（通用）",
+              "entry": "geek强力卸载工具.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统工具/geek强力卸载工具.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__geek_5b88.zip",
+            "size": 2827348,
+            "sha256": "9c630f9dc360b9c06470c379e96ac67bd8a99f171b70bc25747f2077262a8aa7"
+          }
+        },
+        {
+          "name": "鼠标连点器",
+          "entry": "鼠标连点器.exe",
+          "desc": "连点器",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "鼠标连点器（通用）",
+              "entry": "鼠标连点器.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统工具/鼠标连点器.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__tool_acb3.zip",
+            "size": 297769,
+            "sha256": "e111e2739e2cc077314a1e798feb56eef9a94856f8fd85fdfb62f47214fbede3"
+          }
+        },
+        {
+          "name": "Everything查找文件",
+          "entry": "Everything查找文件.exe",
+          "desc": "输入你想要的关键字，即可在所有磁盘查找你想要的软件",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "Everything查找文件（通用）",
+              "entry": "Everything查找文件.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/系统工具/Everything查找文件.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__Everything_6d62.zip",
+            "size": 1334994,
+            "sha256": "fb85086eca3e0ce04523fde819e490d8875c47c7b54b2a3f1a05a0f62fc1dd05"
+          }
+        }
+      ]
     },
     {
       "name": "任务栏美化",
       "icon": "Brush",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "TrayS_x64 CPU",
+          "entry": "TrayS.exe",
+          "desc": "适用于Windows10的任务栏美化工具",
+          "args": "",
+          "version": "1.0.0",
+          "products": [
+            {
+              "name": "TrayS（通用）",
+              "entry": "TrayS.exe",
+              "arch": "通用"
+            }
+          ],
+          "archive": {
+            "path": "tools/任务栏美化/TrayS_x64 CPU.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g12__TrayS_x64_CPU_31df.zip",
+            "size": 54829,
+            "sha256": "ace8ea0bc3c202103eeed47c917623816354ddbda292b2bfc2bd333e0552b031"
+          }
+        }
+      ]
     }
   ]
 }
