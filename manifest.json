@@ -102,7 +102,21 @@
       "icon": "Cpu",
       "version": "",
       "desc": "",
-      "items": []
+      "items": [
+        {
+          "name": "AIDA64",
+          "entry": "aida64.exe",
+          "desc": "",
+          "args": "",
+          "version": "1.0.0",
+          "archive": {
+            "path": "tools/cpu工具/AIDA64.zip",
+            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/cpu.__AIDA64.zip",
+            "size": 47816853,
+            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec"
+          }
+        }
+      ]
     },
     {
       "name": "内存工具",
