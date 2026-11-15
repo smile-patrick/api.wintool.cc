@@ -108,22 +108,12 @@
           "entry": "aida64.exe",
           "desc": "",
           "args": "",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "archive": {
-            "path": "",
+            "path": "tools/cpu工具/AIDA64.zip",
             "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__AIDA64_b509.zip",
             "size": 47816853,
-            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec",
-            "parts": [
-              {
-                "path": "tools/parts/AIDA64.part01",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/AIDA64.part02",
-                "size": 22651029
-              }
-            ]
+            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec"
           }
         }
       ]
