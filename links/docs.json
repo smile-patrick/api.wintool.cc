@@ -1,7 +1,57 @@
 {
-  "page": "docs",
-  "title": "教程文档",
-  "version": 1,
-  "updatedAt": "2026-11-15",
-  "items": []
+    "schema":  2,
+    "page":  "docs",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "title":  "教程文档",
+    "subtitle":  "全部离线入库 · 随工具包更新",
+    "bannerTitle":  "装机与维护文档",
+    "bannerSub":  "文档位于 plugin\\\\教程文档，需先下载「教程文档」工具包",
+    "icon":  "Book",
+    "tip":  "文档为 doc / docx 格式，可用系统自带的 WordPad 或 WPS 打开。",
+    "items":  [
+                  {
+                      "title":  "ESD 文件直接装机教程.docx",
+                      "kind":  "tool",
+                      "target":  "ESD文件直接装机教程.docx",
+                      "note":  "免 U 盘装机",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "U 盘安装双系统教程.docx",
+                      "kind":  "tool",
+                      "target":  "U盘安装双系统教程.docx",
+                      "note":  "双系统引导",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "升级到 win10 后蓝屏 / 无限重启解决方案.docx",
+                      "kind":  "tool",
+                      "target":  "升级到win10后蓝屏，无限重启解决方案.docx",
+                      "note":  "常见故障",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "系统安装教程大全.doc",
+                      "kind":  "tool",
+                      "target":  "系统安装教程大全.doc",
+                      "note":  "全流程",
+                      "badge":  "本地",
+                      "logo":  ""
+                  },
+                  {
+                      "title":  "论 OneDrive 的各种禁用方法.doc",
+                      "kind":  "tool",
+                      "target":  "论OneDrive的各种禁用方法.doc",
+                      "note":  "系统精简",
+                      "badge":  "本地",
+                      "logo":  ""
+                  }
+              ],
+    "recommends":  [
+
+                   ]
 }
