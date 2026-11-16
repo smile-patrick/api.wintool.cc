@@ -1,858 +1,915 @@
 {
-  "schema": 6,
-  "updatedAt": "2026-11-15",
-  "site": "https://www.wintool.cc/",
-  "baseUrl": "https://api.wintool.cc/",
-  "categories": [
-    "系统功能",
-    "cpu工具",
-    "内存工具",
-    "主板工具",
-    "显卡工具",
-    "显示器工具",
-    "磁盘工具",
-    "综合检测",
-    "系统优化",
-    "禁用更新",
-    "驱动工具",
-    "系统工具",
-    "任务栏美化"
-  ],
-  "proxies": [
-    "https://ghfast.top/",
-    "https://v6.gh-proxy.org/",
-    "https://hk.gh-proxy.org/",
-    "https://cdn.gh-proxy.org/",
-    "https://edgeone.gh-proxy.org/"
-  ],
-  "actions": [
-    {
-      "id": "restart-explorer",
-      "name": "重启资源管理器",
-      "action": "restart-explorer",
-      "icon": "Refresh",
-      "desc": "任务栏/桌面卡住时用"
-    },
-    {
-      "id": "rebuild-icons",
-      "name": "重建图标缓存",
-      "action": "rebuild-icons",
-      "icon": "Grid",
-      "desc": "图标错乱、白图标"
-    },
-    {
-      "id": "about-os",
-      "name": "打开关于系统",
-      "action": "about-os",
-      "icon": "Info",
-      "desc": "查看系统版本与硬件"
-    },
-    {
-      "id": "cleanmgr",
-      "name": "系统磁盘清理",
-      "action": "open-cleanmgr",
-      "icon": "Trash",
-      "desc": "调用系统磁盘清理"
-    },
-    {
-      "id": "clean-deep",
-      "name": "高级垃圾清理",
-      "action": "clean-deep",
-      "icon": "Broom",
-      "desc": "临时文件 + 预读缓存"
-    },
-    {
-      "id": "toggle-hibernate",
-      "name": "禁用/恢复休眠",
-      "action": "toggle-hibernate",
-      "icon": "Battery",
-      "desc": "释放或恢复 hiberfil.sys"
-    },
-    {
-      "id": "run-regedit",
-      "name": "打开注册表",
-      "action": "run-regedit",
-      "icon": "Registry",
-      "desc": "regedit 注册表编辑器"
-    },
-    {
-      "id": "shutdown",
-      "name": "关机",
-      "action": "shutdown",
-      "icon": "Power",
-      "desc": "关机（10 秒倒计时）"
-    },
-    {
-      "id": "restart",
-      "name": "重启",
-      "action": "restart",
-      "icon": "Restart",
-      "desc": "重启（10 秒倒计时）"
-    },
-    {
-      "id": "logoff",
-      "name": "注销",
-      "action": "logoff",
-      "icon": "LogOff",
-      "desc": "注销当前用户"
-    }
-  ],
-  "groups": [
-    {
-      "name": "系统功能",
-      "icon": "Grid",
-      "version": "",
-      "desc": "",
-      "items": []
-    },
-    {
-      "name": "cpu工具",
-      "icon": "Cpu",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "AIDA64",
-          "entry": "aida64.exe",
-          "desc": "AIDA64配置查看工具",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/cpu工具/AIDA64.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__AIDA64_b509.zip",
-            "size": 47816853,
-            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec"
-          }
-        },
-        {
-          "name": "CoreTemp1151",
-          "entry": "CoreTemp64/Core Temp.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/cpu工具/CoreTemp1151.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__CoreTemp1151_134c.zip",
-            "size": 1683381,
-            "sha256": "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
-          }
-        },
-        {
-          "name": "CPUZ",
-          "entry": "cpuz64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/cpu工具/CPUZ.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__CPUZ_71ba.zip",
-            "size": 3456999,
-            "sha256": "b6e54edc8286718413d855a3ae0fb637a2aca5ed7455e83b2375d32410820096"
-          }
-        }
-      ]
-    },
-    {
-      "name": "内存工具",
-      "icon": "Memory",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "memtest",
-          "entry": "memtest.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/内存工具/memtest.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__memtest_b63d.zip",
-            "size": 8714,
-            "sha256": "57ec6b3d5ba0ef6e73d815343fcb93fe8387af42dda119e5604cd0e60dff8a40"
-          }
-        },
-        {
-          "name": "memtestpro",
-          "entry": "memtestpro.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/内存工具/memtestpro.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__memtestpro_a89b.zip",
-            "size": 15508,
-            "sha256": "10c9376d80c1141574e138246f32252b7804df8fccdef61b036fe60615795af1"
-          }
-        },
-        {
-          "name": "魔方内存盘",
-          "entry": "ramdisk.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/内存工具/魔方内存盘.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__tool_6c1b.zip",
-            "size": 278161,
-            "sha256": "b4e40338948e724444c21c61f3c4f2246895ac245d0ccc205dde7203cf7aafcf"
-          }
-        }
-      ]
-    },
-    {
-      "name": "主板工具",
-      "icon": "Board",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "AIDA64",
-          "entry": "AIDA64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/主板工具/AIDA64.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g03__AIDA64_b509.zip",
-            "size": 2760758,
-            "sha256": "f01a0c8e34f6ef0ce4b9fcfb16048cec34c3654166b50678d8b4940f79a1e595"
-          }
-        }
-      ]
-    },
-    {
-      "name": "显卡工具",
-      "icon": "Gpu",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "CPUZ",
-          "entry": "cpuz64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/显卡工具/CPUZ.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g04__CPUZ_71ba.zip",
-            "size": 3272387,
-            "sha256": "1ac9445ce0779efc99ef1d60780c82d0b69a6f8e8fe16f4e350b0e0820e590c2"
-          }
-        },
-        {
-          "name": "gpuinfo",
-          "entry": "Gpuinfo.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/显卡工具/gpuinfo.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g04__gpuinfo_d6bb.zip",
-            "size": 9620978,
-            "sha256": "8e380bb4629d834cd3f0e5a295a9a801b59e28dff40a3c05edadb991751c4a21"
-          }
-        }
-      ]
-    },
-    {
-      "name": "显示器工具",
-      "icon": "Monitor",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "displayx",
-          "entry": "DisplayX.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/显示器工具/displayx.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g05__displayx_21c3.zip",
-            "size": 25037,
-            "sha256": "41ec5c2dfc79cdf6eedafaffe9e2f9aa52c2e27cf925bf15c6344a8a9891aab4"
-          }
-        },
-        {
-          "name": "色域检测",
-          "entry": "monitorinfo.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/显示器工具/色域检测.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g05__tool_b2f8.zip",
-            "size": 569961,
-            "sha256": "b3b6149cbf3bc2938d908c9a40f596e092783df6c2e3307f0d47be3b619629aa"
-          }
-        }
-      ]
-    },
-    {
-      "name": "磁盘工具",
-      "icon": "Disk",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "魔方数据恢复",
-          "entry": "魔方数据恢复.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/魔方数据恢复.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__tool_ac90.zip",
-            "size": 267668,
-            "sha256": "b1d065ad2aa68b3edabc363d490aab2c35373b289320ca84765f891d5b627d93"
-          }
-        },
-        {
-          "name": "ASSSDBenchmark",
-          "entry": "ASSSDBenchmark.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/ASSSDBenchmark.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__ASSSDBenchmark_374d.zip",
-            "size": 290032,
-            "sha256": "ca3717dbd0fc4dc5c36e54c64e5a49f370aad47b3d830bfdd8852380b3fc82f6"
-          }
-        },
-        {
-          "name": "CrystalDiskInfo",
-          "entry": "DiskInfo64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/CrystalDiskInfo.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__CrystalDiskInfo_66e0.zip",
-            "size": 15529537,
-            "sha256": "bfff0323fab2a54af6e9220a03047d30eacb70d07ef000d7ec709c477341b196"
-          }
-        },
-        {
-          "name": "Defraggler",
-          "entry": "Defraggler.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/Defraggler.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__Defraggler_358b.zip",
-            "size": 1985090,
-            "sha256": "b3f1771622e10a15e67b222f24272ce12d8b06cb1eea219b09a7205ac8ea2350"
-          }
-        },
-        {
-          "name": "DiskGenius",
-          "entry": "DiskGenius.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/DiskGenius.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__DiskGenius_c8e7.zip",
-            "size": 67339635,
-            "sha256": "11a6fa62ffbb41c540c09e7f2f85230dbeb0f3026aa3202e513201503aaff977"
-          }
-        },
-        {
-          "name": "SSDZ",
-          "entry": "SSDZ.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/SSDZ.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__SSDZ_a508.zip",
-            "size": 426965,
-            "sha256": "62d570b5e9925d9926e7d4d487c96cf2a1406c1cd8a5ce5c50533c07b346cae5"
-          }
-        },
-        {
-          "name": "ULTRAISO",
-          "entry": "ULTRAISO.EXE",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/ULTRAISO.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__ULTRAISO_586e.zip",
-            "size": 2255783,
-            "sha256": "6e5aeba8c37f083adbc73a303321bc2c50e7876aa72f481ddb369664c389954d"
-          }
-        },
-        {
-          "name": "refus",
-          "entry": "rufus.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/refus.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__refus_5ce4.zip",
-            "size": 1347802,
-            "sha256": "4f39d1b7fa65efe089969e0770cc55918cd390e66b551c7a1d3a5a584730b9a0"
-          }
-        },
-        {
-          "name": "UltraISO2",
-          "entry": "UltraISO.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/磁盘工具/UltraISO2.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__UltraISO2_fa50.zip",
-            "size": 1906072,
-            "sha256": "3081159e2668adac4a35aac3e2db3396f8e4da4cddd88576309c7f0a13ef1193"
-          }
-        }
-      ]
-    },
-    {
-      "name": "综合检测",
-      "icon": "Shield",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "AIDA64",
-          "entry": "aida64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/综合检测/AIDA64.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__AIDA64_b509.zip",
-            "size": 47816853,
-            "sha256": "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec"
-          }
-        },
-        {
-          "name": "CPUZ",
-          "entry": "cpuz64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/综合检测/CPUZ.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__CPUZ_71ba.zip",
-            "size": 3033419,
-            "sha256": "85381d0f97c9f2164b213557182021d0053544892181d54842df6389687af649"
-          }
-        },
-        {
-          "name": "speccy",
-          "entry": "Speccy64.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/综合检测/speccy.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__speccy_9272.zip",
-            "size": 5316142,
-            "sha256": "873376d1344520abe79125443505fe43bcc03e740d25f08e5b1be9fe128ed0f3"
-          }
-        },
-        {
-          "name": "图拉丁硬件检测",
-          "entry": "图拉丁硬件检测.exe",
-          "desc": "",
-          "args": "",
-          "version": "1.0.0",
-          "products": [],
-          "archive": {
-            "path": "tools/综合检测/图拉丁硬件检测.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__tool_4727.zip",
-            "size": 746688,
-            "sha256": "f506419630e9bf4784f6c37bef80a9249ff684a3dae70c09d2b4835925e927d2"
-          }
-        }
-      ]
-    },
-    {
-      "name": "系统优化",
-      "icon": "Tune",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "360断网急救箱",
-          "entry": "360断网急救箱.exe",
-          "desc": "360断网急救箱",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "360断网急救箱（通用）",
-              "entry": "360断网急救箱.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统优化/360断网急救箱.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__360_2ae9.zip",
-            "size": 3035941,
-            "sha256": "a649aa99e752618a46fc1908a5a61b088ce50adac3bad556d3c5fd434e72c698"
-          }
-        },
-        {
-          "name": "Dism++",
-          "entry": "Dism++x64.exe",
-          "desc": "由初雨团队开发的开源免费 Windows 系统优化工具，基于 CBS 底层 API，提供深度清理、启动管理 …",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "Dism++ARM64",
-              "entry": "Dism++ARM64.exe",
-              "arch": "ARM64"
-            },
-            {
-              "name": "Dism++x64",
-              "entry": "Dism++x64.exe",
-              "arch": "64位"
-            },
-            {
-              "name": "Dism++x86（32位）",
-              "entry": "Dism++x86.exe",
-              "arch": "32位"
-            }
-          ],
-          "archive": {
-            "path": "",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Dism_5b4e.zip",
-            "size": 103707677,
-            "sha256": "ea3d6c0920185f3164ff527f398d89c0310287743855e73d79ac1855c27e7607",
-            "parts": [
-              {
-                "path": "tools/parts/Dism++.part01",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part02",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part03",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part04",
-                "size": 25165824
-              },
-              {
-                "path": "tools/parts/Dism++.part05",
-                "size": 3044381
-              }
-            ]
-          }
-        },
-        {
-          "name": "火绒弹窗拦截独立版",
-          "entry": "弹窗拦截.exe",
-          "desc": "从火绒分离出来的弹窗拦截独立版（不确定可用性）",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "弹窗拦截（通用）",
-              "entry": "弹窗拦截.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统优化/火绒弹窗拦截独立版.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__tool_990f.zip",
-            "size": 2706507,
-            "sha256": "6531264b3ff2de0aed6c61390cceae7f477da1572a80c7176dfd67c474d3df2a"
-          }
-        },
-        {
-          "name": "Defender工具",
-          "entry": "禁用安全中心.exe",
-          "desc": "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "禁用安全中心（通用）",
-              "entry": "禁用安全中心.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统优化/Defender工具.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Defender_3c33.zip",
-            "size": 401667,
-            "sha256": "d39997d3ca255819f548651228fa2b7c490d400cdd25333cc7bf6709c6347ad5"
-          }
-        },
-        {
-          "name": "DFControl",
-          "entry": "Defender_Control_2.1.0_Single.exe",
-          "desc": "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "Defender_Control_2.1.0_Single（通用）",
-              "entry": "Defender_Control_2.1.0_Single.exe",
-              "arch": "通用"
-            },
-            {
-              "name": "DFControl（通用）",
-              "entry": "DFControl.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统优化/DFControl.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__DFControl_2c17.zip",
-            "size": 895692,
-            "sha256": "0165232a3d3b00ddc34cebc311c5cb48cb19e26d98a557305261efc25883d8c2"
-          }
-        },
-        {
-          "name": "WDControl",
-          "entry": "WDControl.exe",
-          "desc": "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "WDControl（通用）",
-              "entry": "WDControl.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统优化/WDControl.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__WDControl_24db.zip",
-            "size": 587898,
-            "sha256": "d0150c822c61f2ef94110f516cb66aafb0556ebcd4dd883ad2d7ead6707c6b1c"
-          }
-        }
-      ]
-    },
-    {
-      "name": "禁用更新",
-      "icon": "Lock",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "Wub",
-          "entry": "Wub.exe",
-          "desc": "一键禁用/恢复Windows自动更新",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "Wub（通用）",
-              "entry": "Wub.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/禁用更新/Wub.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g09__Wub_662c.zip",
-            "size": 491588,
-            "sha256": "75cf048d03075fef7024abec61f9e803149b3c05b29688e60da29b9728720227"
-          }
-        }
-      ]
-    },
-    {
-      "name": "驱动工具",
-      "icon": "Drive",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "360驱动大师",
-          "entry": "360驱动大师.exe",
-          "desc": "360的驱动大师（Windows10/11建议使用官方驱动）",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "360驱动大师（通用）",
-              "entry": "360驱动大师.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/驱动工具/360驱动大师.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g10__360_c8f3.zip",
-            "size": 8599861,
-            "sha256": "bac622dd0ff8cbad7ff796ea8246d2e25c2c8191bbc11d6a0e38df2a6fca464c"
-          }
-        },
-        {
-          "name": "驱动精灵",
-          "entry": "驱动精灵.exe",
-          "desc": "一款经典的驱动工具，可自动检测未安装的驱动（Windows10/11建议使用官方驱动）",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "驱动精灵（通用）",
-              "entry": "驱动精灵.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/驱动工具/驱动精灵.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g10__tool_9816.zip",
-            "size": 9971472,
-            "sha256": "d0e08ae2423e0df74f00db7e2e2b58a2bf21eb10089dc9218b07d00098661195"
-          }
-        }
-      ]
-    },
-    {
-      "name": "系统工具",
-      "icon": "Gear",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "FastStone Capture桌面小工具",
-          "entry": "FastStone Capture桌面小工具.exe",
-          "desc": "桌面小工具",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "FastStone Capture桌面小工具（通用）",
-              "entry": "FastStone Capture桌面小工具.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统工具/FastStone Capture桌面小工具.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__FastStone_Capture_b776.zip",
-            "size": 3182688,
-            "sha256": "660031ca6b6b53ec11dc5dcb3339d3ced8a8022970da1f30940861729db951f8"
-          }
-        },
-        {
-          "name": "geek强力卸载工具",
-          "entry": "geek强力卸载工具.exe",
-          "desc": "geek是一款强大全面的卸载工具，支持卸载后自动寻找残留的项目以及注册表项目并删除，可强制卸载软件",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "geek强力卸载工具（通用）",
-              "entry": "geek强力卸载工具.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统工具/geek强力卸载工具.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__geek_5b88.zip",
-            "size": 2827348,
-            "sha256": "9c630f9dc360b9c06470c379e96ac67bd8a99f171b70bc25747f2077262a8aa7"
-          }
-        },
-        {
-          "name": "鼠标连点器",
-          "entry": "鼠标连点器.exe",
-          "desc": "连点器",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "鼠标连点器（通用）",
-              "entry": "鼠标连点器.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统工具/鼠标连点器.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__tool_acb3.zip",
-            "size": 297769,
-            "sha256": "e111e2739e2cc077314a1e798feb56eef9a94856f8fd85fdfb62f47214fbede3"
-          }
-        },
-        {
-          "name": "Everything查找文件",
-          "entry": "Everything查找文件.exe",
-          "desc": "输入你想要的关键字，即可在所有磁盘查找你想要的软件",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "Everything查找文件（通用）",
-              "entry": "Everything查找文件.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/系统工具/Everything查找文件.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__Everything_6d62.zip",
-            "size": 1334994,
-            "sha256": "fb85086eca3e0ce04523fde819e490d8875c47c7b54b2a3f1a05a0f62fc1dd05"
-          }
-        }
-      ]
-    },
-    {
-      "name": "任务栏美化",
-      "icon": "Brush",
-      "version": "",
-      "desc": "",
-      "items": [
-        {
-          "name": "TrayS_x64 CPU",
-          "entry": "TrayS.exe",
-          "desc": "适用于Windows10的任务栏美化工具",
-          "args": "",
-          "version": "1.0.0",
-          "products": [
-            {
-              "name": "TrayS（通用）",
-              "entry": "TrayS.exe",
-              "arch": "通用"
-            }
-          ],
-          "archive": {
-            "path": "tools/任务栏美化/TrayS_x64 CPU.zip",
-            "url": "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g12__TrayS_x64_CPU_31df.zip",
-            "size": 54829,
-            "sha256": "ace8ea0bc3c202103eeed47c917623816354ddbda292b2bfc2bd333e0552b031"
-          }
-        }
-      ]
-    }
-  ]
+    "schema":  6,
+    "updatedAt":  "2026-11-15",
+    "site":  "https://www.wintool.cc/",
+    "baseUrl":  "https://api.wintool.cc/",
+    "categories":  [
+                       "系统功能",
+                       "cpu工具",
+                       "内存工具",
+                       "主板工具",
+                       "显卡工具",
+                       "显示器工具",
+                       "磁盘工具",
+                       "综合检测",
+                       "系统优化",
+                       "禁用更新",
+                       "驱动工具",
+                       "系统工具",
+                       "任务栏美化"
+                   ],
+    "proxies":  [
+                    "https://ghfast.top/",
+                    "https://v6.gh-proxy.org/",
+                    "https://hk.gh-proxy.org/",
+                    "https://cdn.gh-proxy.org/",
+                    "https://edgeone.gh-proxy.org/"
+                ],
+    "actions":  [
+                    {
+                        "id":  "restart-explorer",
+                        "name":  "重启资源管理器",
+                        "action":  "restart-explorer",
+                        "icon":  "Refresh",
+                        "desc":  "任务栏/桌面卡住时用"
+                    },
+                    {
+                        "id":  "rebuild-icons",
+                        "name":  "重建图标缓存",
+                        "action":  "rebuild-icons",
+                        "icon":  "Grid",
+                        "desc":  "图标错乱、白图标"
+                    },
+                    {
+                        "id":  "about-os",
+                        "name":  "打开关于系统",
+                        "action":  "about-os",
+                        "icon":  "Info",
+                        "desc":  "查看系统版本与硬件"
+                    },
+                    {
+                        "id":  "sys-report",
+                        "name":  "系统信息",
+                        "action":  "sys-report",
+                        "icon":  "Gear",
+                        "desc":  "查看系统 / 硬件 / 安全状态"
+                    },
+                    {
+                        "id":  "cleanmgr",
+                        "name":  "系统磁盘清理",
+                        "action":  "open-cleanmgr",
+                        "icon":  "Trash",
+                        "desc":  "调用系统磁盘清理"
+                    },
+                    {
+                        "id":  "clean-deep",
+                        "name":  "高级垃圾清理",
+                        "action":  "clean-deep",
+                        "icon":  "Broom",
+                        "desc":  "临时文件 + 预读缓存"
+                    },
+                    {
+                        "id":  "toggle-hibernate",
+                        "name":  "禁用/恢复休眠",
+                        "action":  "toggle-hibernate",
+                        "icon":  "Battery",
+                        "desc":  "释放或恢复 hiberfil.sys"
+                    },
+                    {
+                        "id":  "run-regedit",
+                        "name":  "打开注册表",
+                        "action":  "run-regedit",
+                        "icon":  "Registry",
+                        "desc":  "regedit 注册表编辑器"
+                    },
+                    {
+                        "id":  "shutdown",
+                        "name":  "关机",
+                        "action":  "shutdown",
+                        "icon":  "Power",
+                        "desc":  "关机（10 秒倒计时）"
+                    },
+                    {
+                        "id":  "restart",
+                        "name":  "重启",
+                        "action":  "restart",
+                        "icon":  "Restart",
+                        "desc":  "重启（10 秒倒计时）"
+                    },
+                    {
+                        "id":  "logoff",
+                        "name":  "注销",
+                        "action":  "logoff",
+                        "icon":  "LogOff",
+                        "desc":  "注销当前用户"
+                    }
+                ],
+    "groups":  [
+                   {
+                       "name":  "系统功能",
+                       "icon":  "Grid",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "cpu工具",
+                       "icon":  "Cpu",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "AIDA64",
+                                         "entry":  "aida64.exe",
+                                         "desc":  "AIDA64配置查看工具",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/cpu工具/AIDA64.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__AIDA64_b509.zip",
+                                                         "size":  47816853,
+                                                         "sha256":  "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "CoreTemp1151",
+                                         "entry":  "CoreTemp64/Core Temp.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/cpu工具/CoreTemp1151.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__CoreTemp1151_134c.zip",
+                                                         "size":  1683381,
+                                                         "sha256":  "bd2e0d413cd3392c63282b4773fea204fec90c8d9a6bb4a69ab074da2861d0f1"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "CPUZ",
+                                         "entry":  "cpuz64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/cpu工具/CPUZ.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g01__CPUZ_71ba.zip",
+                                                         "size":  3456999,
+                                                         "sha256":  "b6e54edc8286718413d855a3ae0fb637a2aca5ed7455e83b2375d32410820096"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "内存工具",
+                       "icon":  "Memory",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "memtest",
+                                         "entry":  "memtest.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/内存工具/memtest.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__memtest_b63d.zip",
+                                                         "size":  8714,
+                                                         "sha256":  "57ec6b3d5ba0ef6e73d815343fcb93fe8387af42dda119e5604cd0e60dff8a40"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "memtestpro",
+                                         "entry":  "memtestpro.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/内存工具/memtestpro.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__memtestpro_a89b.zip",
+                                                         "size":  15508,
+                                                         "sha256":  "10c9376d80c1141574e138246f32252b7804df8fccdef61b036fe60615795af1"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "魔方内存盘",
+                                         "entry":  "ramdisk.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/内存工具/魔方内存盘.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g02__tool_6c1b.zip",
+                                                         "size":  278161,
+                                                         "sha256":  "b4e40338948e724444c21c61f3c4f2246895ac245d0ccc205dde7203cf7aafcf"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "主板工具",
+                       "icon":  "Board",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "AIDA64",
+                                         "entry":  "AIDA64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/主板工具/AIDA64.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g03__AIDA64_b509.zip",
+                                                         "size":  2760758,
+                                                         "sha256":  "f01a0c8e34f6ef0ce4b9fcfb16048cec34c3654166b50678d8b4940f79a1e595"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "显卡工具",
+                       "icon":  "Gpu",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "CPUZ",
+                                         "entry":  "cpuz64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/显卡工具/CPUZ.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g04__CPUZ_71ba.zip",
+                                                         "size":  3272387,
+                                                         "sha256":  "1ac9445ce0779efc99ef1d60780c82d0b69a6f8e8fe16f4e350b0e0820e590c2"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "gpuinfo",
+                                         "entry":  "Gpuinfo.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/显卡工具/gpuinfo.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g04__gpuinfo_d6bb.zip",
+                                                         "size":  9620978,
+                                                         "sha256":  "8e380bb4629d834cd3f0e5a295a9a801b59e28dff40a3c05edadb991751c4a21"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "显示器工具",
+                       "icon":  "Monitor",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "displayx",
+                                         "entry":  "DisplayX.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/显示器工具/displayx.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g05__displayx_21c3.zip",
+                                                         "size":  25037,
+                                                         "sha256":  "41ec5c2dfc79cdf6eedafaffe9e2f9aa52c2e27cf925bf15c6344a8a9891aab4"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "色域检测",
+                                         "entry":  "monitorinfo.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/显示器工具/色域检测.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g05__tool_b2f8.zip",
+                                                         "size":  569961,
+                                                         "sha256":  "b3b6149cbf3bc2938d908c9a40f596e092783df6c2e3307f0d47be3b619629aa"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "磁盘工具",
+                       "icon":  "Disk",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "魔方数据恢复",
+                                         "entry":  "魔方数据恢复.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/魔方数据恢复.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__tool_ac90.zip",
+                                                         "size":  267668,
+                                                         "sha256":  "b1d065ad2aa68b3edabc363d490aab2c35373b289320ca84765f891d5b627d93"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "ASSSDBenchmark",
+                                         "entry":  "ASSSDBenchmark.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/ASSSDBenchmark.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__ASSSDBenchmark_374d.zip",
+                                                         "size":  290032,
+                                                         "sha256":  "ca3717dbd0fc4dc5c36e54c64e5a49f370aad47b3d830bfdd8852380b3fc82f6"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "CrystalDiskInfo",
+                                         "entry":  "DiskInfo64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/CrystalDiskInfo.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__CrystalDiskInfo_66e0.zip",
+                                                         "size":  15529537,
+                                                         "sha256":  "bfff0323fab2a54af6e9220a03047d30eacb70d07ef000d7ec709c477341b196"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "Defraggler",
+                                         "entry":  "Defraggler.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/Defraggler.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__Defraggler_358b.zip",
+                                                         "size":  1985090,
+                                                         "sha256":  "b3f1771622e10a15e67b222f24272ce12d8b06cb1eea219b09a7205ac8ea2350"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "DiskGenius",
+                                         "entry":  "DiskGenius.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/DiskGenius.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__DiskGenius_c8e7.zip",
+                                                         "size":  67339635,
+                                                         "sha256":  "11a6fa62ffbb41c540c09e7f2f85230dbeb0f3026aa3202e513201503aaff977"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "SSDZ",
+                                         "entry":  "SSDZ.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/SSDZ.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__SSDZ_a508.zip",
+                                                         "size":  426965,
+                                                         "sha256":  "62d570b5e9925d9926e7d4d487c96cf2a1406c1cd8a5ce5c50533c07b346cae5"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "ULTRAISO",
+                                         "entry":  "ULTRAISO.EXE",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/ULTRAISO.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__ULTRAISO_586e.zip",
+                                                         "size":  2255783,
+                                                         "sha256":  "6e5aeba8c37f083adbc73a303321bc2c50e7876aa72f481ddb369664c389954d"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "refus",
+                                         "entry":  "rufus.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/refus.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__refus_5ce4.zip",
+                                                         "size":  1347802,
+                                                         "sha256":  "4f39d1b7fa65efe089969e0770cc55918cd390e66b551c7a1d3a5a584730b9a0"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "UltraISO2",
+                                         "entry":  "UltraISO.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/磁盘工具/UltraISO2.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g06__UltraISO2_fa50.zip",
+                                                         "size":  1906072,
+                                                         "sha256":  "3081159e2668adac4a35aac3e2db3396f8e4da4cddd88576309c7f0a13ef1193"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "综合检测",
+                       "icon":  "Shield",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "AIDA64",
+                                         "entry":  "aida64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/综合检测/AIDA64.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__AIDA64_b509.zip",
+                                                         "size":  47816853,
+                                                         "sha256":  "e1d6b2484e233b870524a09d339103228f59b197f6fab5a2a62bab3587160cec"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "CPUZ",
+                                         "entry":  "cpuz64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/综合检测/CPUZ.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__CPUZ_71ba.zip",
+                                                         "size":  3033419,
+                                                         "sha256":  "85381d0f97c9f2164b213557182021d0053544892181d54842df6389687af649"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "speccy",
+                                         "entry":  "Speccy64.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/综合检测/speccy.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__speccy_9272.zip",
+                                                         "size":  5316142,
+                                                         "sha256":  "873376d1344520abe79125443505fe43bcc03e740d25f08e5b1be9fe128ed0f3"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "图拉丁硬件检测",
+                                         "entry":  "图拉丁硬件检测.exe",
+                                         "desc":  "",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/综合检测/图拉丁硬件检测.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g07__tool_4727.zip",
+                                                         "size":  746688,
+                                                         "sha256":  "f506419630e9bf4784f6c37bef80a9249ff684a3dae70c09d2b4835925e927d2"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "系统优化",
+                       "icon":  "Tune",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "360断网急救箱",
+                                         "entry":  "360断网急救箱.exe",
+                                         "desc":  "360断网急救箱",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "360断网急救箱（通用）",
+                                                              "entry":  "360断网急救箱.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统优化/360断网急救箱.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__360_2ae9.zip",
+                                                         "size":  3035941,
+                                                         "sha256":  "a649aa99e752618a46fc1908a5a61b088ce50adac3bad556d3c5fd434e72c698"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "Dism++",
+                                         "entry":  "Dism++x64.exe",
+                                         "desc":  "由初雨团队开发的开源免费 Windows 系统优化工具，基于 CBS 底层 API，提供深度清理、启动管理 …",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "Dism++ARM64",
+                                                              "entry":  "Dism++ARM64.exe",
+                                                              "arch":  "ARM64"
+                                                          },
+                                                          {
+                                                              "name":  "Dism++x64",
+                                                              "entry":  "Dism++x64.exe",
+                                                              "arch":  "64位"
+                                                          },
+                                                          {
+                                                              "name":  "Dism++x86（32位）",
+                                                              "entry":  "Dism++x86.exe",
+                                                              "arch":  "32位"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Dism_5b4e.zip",
+                                                         "size":  103707677,
+                                                         "sha256":  "ea3d6c0920185f3164ff527f398d89c0310287743855e73d79ac1855c27e7607",
+                                                         "parts":  [
+                                                                       {
+                                                                           "path":  "tools/parts/Dism++.part01",
+                                                                           "size":  25165824
+                                                                       },
+                                                                       {
+                                                                           "path":  "tools/parts/Dism++.part02",
+                                                                           "size":  25165824
+                                                                       },
+                                                                       {
+                                                                           "path":  "tools/parts/Dism++.part03",
+                                                                           "size":  25165824
+                                                                       },
+                                                                       {
+                                                                           "path":  "tools/parts/Dism++.part04",
+                                                                           "size":  25165824
+                                                                       },
+                                                                       {
+                                                                           "path":  "tools/parts/Dism++.part05",
+                                                                           "size":  3044381
+                                                                       }
+                                                                   ]
+                                                     }
+                                     },
+                                     {
+                                         "name":  "火绒弹窗拦截独立版",
+                                         "entry":  "弹窗拦截.exe",
+                                         "desc":  "从火绒分离出来的弹窗拦截独立版（不确定可用性）",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "弹窗拦截（通用）",
+                                                              "entry":  "弹窗拦截.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统优化/火绒弹窗拦截独立版.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__tool_990f.zip",
+                                                         "size":  2706507,
+                                                         "sha256":  "6531264b3ff2de0aed6c61390cceae7f477da1572a80c7176dfd67c474d3df2a"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "Defender工具",
+                                         "entry":  "禁用安全中心.exe",
+                                         "desc":  "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "禁用安全中心（通用）",
+                                                              "entry":  "禁用安全中心.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统优化/Defender工具.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__Defender_3c33.zip",
+                                                         "size":  401667,
+                                                         "sha256":  "d39997d3ca255819f548651228fa2b7c490d400cdd25333cc7bf6709c6347ad5"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "DFControl",
+                                         "entry":  "Defender_Control_2.1.0_Single.exe",
+                                         "desc":  "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "Defender_Control_2.1.0_Single（通用）",
+                                                              "entry":  "Defender_Control_2.1.0_Single.exe",
+                                                              "arch":  "通用"
+                                                          },
+                                                          {
+                                                              "name":  "DFControl（通用）",
+                                                              "entry":  "DFControl.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统优化/DFControl.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__DFControl_2c17.zip",
+                                                         "size":  895692,
+                                                         "sha256":  "0165232a3d3b00ddc34cebc311c5cb48cb19e26d98a557305261efc25883d8c2"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "WDControl",
+                                         "entry":  "WDControl.exe",
+                                         "desc":  "禁用Windows自带的安全中心（有概率直接被删除，可先安装其他安全软件添加白名单后运行）",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "WDControl（通用）",
+                                                              "entry":  "WDControl.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统优化/WDControl.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g08__WDControl_24db.zip",
+                                                         "size":  587898,
+                                                         "sha256":  "d0150c822c61f2ef94110f516cb66aafb0556ebcd4dd883ad2d7ead6707c6b1c"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "禁用更新",
+                       "icon":  "Lock",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "Wub",
+                                         "entry":  "Wub.exe",
+                                         "desc":  "一键禁用/恢复Windows自动更新",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "Wub（通用）",
+                                                              "entry":  "Wub.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/禁用更新/Wub.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g09__Wub_662c.zip",
+                                                         "size":  491588,
+                                                         "sha256":  "75cf048d03075fef7024abec61f9e803149b3c05b29688e60da29b9728720227"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "驱动工具",
+                       "icon":  "Drive",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "360驱动大师",
+                                         "entry":  "360驱动大师.exe",
+                                         "desc":  "360的驱动大师（Windows10/11建议使用官方驱动）",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "360驱动大师（通用）",
+                                                              "entry":  "360驱动大师.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/驱动工具/360驱动大师.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g10__360_c8f3.zip",
+                                                         "size":  8599861,
+                                                         "sha256":  "bac622dd0ff8cbad7ff796ea8246d2e25c2c8191bbc11d6a0e38df2a6fca464c"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "驱动精灵",
+                                         "entry":  "驱动精灵.exe",
+                                         "desc":  "一款经典的驱动工具，可自动检测未安装的驱动（Windows10/11建议使用官方驱动）",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "驱动精灵（通用）",
+                                                              "entry":  "驱动精灵.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/驱动工具/驱动精灵.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g10__tool_9816.zip",
+                                                         "size":  9971472,
+                                                         "sha256":  "d0e08ae2423e0df74f00db7e2e2b58a2bf21eb10089dc9218b07d00098661195"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "系统工具",
+                       "icon":  "Gear",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "FastStone Capture桌面小工具",
+                                         "entry":  "FastStone Capture桌面小工具.exe",
+                                         "desc":  "桌面小工具",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "FastStone Capture桌面小工具（通用）",
+                                                              "entry":  "FastStone Capture桌面小工具.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统工具/FastStone Capture桌面小工具.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__FastStone_Capture_b776.zip",
+                                                         "size":  3182688,
+                                                         "sha256":  "660031ca6b6b53ec11dc5dcb3339d3ced8a8022970da1f30940861729db951f8"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "geek强力卸载工具",
+                                         "entry":  "geek强力卸载工具.exe",
+                                         "desc":  "geek是一款强大全面的卸载工具，支持卸载后自动寻找残留的项目以及注册表项目并删除，可强制卸载软件",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "geek强力卸载工具（通用）",
+                                                              "entry":  "geek强力卸载工具.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统工具/geek强力卸载工具.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__geek_5b88.zip",
+                                                         "size":  2827348,
+                                                         "sha256":  "9c630f9dc360b9c06470c379e96ac67bd8a99f171b70bc25747f2077262a8aa7"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "鼠标连点器",
+                                         "entry":  "鼠标连点器.exe",
+                                         "desc":  "连点器",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "鼠标连点器（通用）",
+                                                              "entry":  "鼠标连点器.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统工具/鼠标连点器.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__tool_acb3.zip",
+                                                         "size":  297769,
+                                                         "sha256":  "e111e2739e2cc077314a1e798feb56eef9a94856f8fd85fdfb62f47214fbede3"
+                                                     }
+                                     },
+                                     {
+                                         "name":  "Everything查找文件",
+                                         "entry":  "Everything查找文件.exe",
+                                         "desc":  "输入你想要的关键字，即可在所有磁盘查找你想要的软件",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "Everything查找文件（通用）",
+                                                              "entry":  "Everything查找文件.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/系统工具/Everything查找文件.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g11__Everything_6d62.zip",
+                                                         "size":  1334994,
+                                                         "sha256":  "fb85086eca3e0ce04523fde819e490d8875c47c7b54b2a3f1a05a0f62fc1dd05"
+                                                     }
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "任务栏美化",
+                       "icon":  "Brush",
+                       "version":  "",
+                       "desc":  "",
+                       "items":  [
+                                     {
+                                         "name":  "TrayS_x64 CPU",
+                                         "entry":  "TrayS.exe",
+                                         "desc":  "适用于Windows10的任务栏美化工具",
+                                         "args":  "",
+                                         "version":  "1.0.0",
+                                         "products":  [
+                                                          {
+                                                              "name":  "TrayS（通用）",
+                                                              "entry":  "TrayS.exe",
+                                                              "arch":  "通用"
+                                                          }
+                                                      ],
+                                         "archive":  {
+                                                         "path":  "tools/任务栏美化/TrayS_x64 CPU.zip",
+                                                         "url":  "https://github.com/smile-patrick/api.wintool.cc/releases/download/tools/g12__TrayS_x64_CPU_31df.zip",
+                                                         "size":  54829,
+                                                         "sha256":  "ace8ea0bc3c202103eeed47c917623816354ddbda292b2bfc2bd333e0552b031"
+                                                     }
+                                     }
+                                 ]
+                   }
+               ]
 }
