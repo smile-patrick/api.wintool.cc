@@ -48,13 +48,6 @@
                         "desc":  "查看系统版本与硬件"
                     },
                     {
-                        "id":  "sys-report",
-                        "name":  "系统信息",
-                        "action":  "sys-report",
-                        "icon":  "Gear",
-                        "desc":  "查看系统 / 硬件 / 安全状态"
-                    },
-                    {
                         "id":  "cleanmgr",
                         "name":  "系统磁盘清理",
                         "action":  "open-cleanmgr",
