@@ -1,73 +1,77 @@
 {
-  "schema": 2,
-  "page": "winpe",
-  "version": 2,
-  "updatedAt": "2026-11-16",
-  "items": [
-    {
-      "title": "FirPE \u7EF4\u62A4\u7CFB\u7EDF",
-      "kind": "url",
-      "target": "https://firpe.cn/page-247",
-      "note": "\u5B98\u65B9\u63A8\u8350",
-      "badge": "\u63A8\u8350"
-    },
-    {
-      "title": "\u5FAE PE \u5DE5\u5177\u7BB1",
-      "kind": "url",
-      "target": "https://www.wepe.com.cn/",
-      "note": "\u7EAF\u51C0\u7ECF\u5178",
-      "badge": "\u63A8\u8350"
-    },
-    {
-      "title": "Edgeless PE",
-      "kind": "url",
-      "target": "https://home.edgeless.top/",
-      "note": "\u53EF\u6269\u5C55\u63D2\u4EF6\u5316 PE",
-      "badge": ""
-    },
-    {
-      "title": "USM U \u76D8\u9B54\u672F\u5E08",
-      "kind": "url",
-      "target": "https://www.sysceo.com/usm.html",
-      "note": "\u9A71\u52A8\u9F50\u5168",
-      "badge": ""
-    },
-    {
-      "title": "WinOS",
-      "kind": "url",
-      "target": "https://www.winos.me/",
-      "note": "\u7CFB\u7EDF\u4E0E PE \u5408\u96C6",
-      "badge": ""
-    },
-    {
-      "title": "\u679C\u6838\u5265\u58F3 \u00B7 PE \u5206\u7C7B",
-      "kind": "url",
-      "target": "https://www.ghxi.com/category/all/system/winpe",
-      "note": "PE \u5206\u7C7B\u9875",
-      "badge": ""
-    },
-    {
-      "title": "CowPE",
-      "kind": "url",
-      "target": "https://cowpe.myzqw.cn/project/8c11",
-      "note": "\u8F7B\u91CF\u7EF4\u62A4",
-      "badge": ""
-    }
-  ],
-  "recommends": [
-    {
-      "title": "FirPE \u5236\u4F5C\u5DE5\u5177",
-      "desc": "\u96C6\u6210\u5927\u91CF\u7EF4\u62A4\u5DE5\u5177\uFF0C\u652F\u6301 UEFI \u4E0E Legacy \u53CC\u542F\u52A8\u3002",
-      "kind": "url",
-      "target": "https://firpe.cn/page-247",
-      "button": "\u6253\u5F00\u5B98\u7F51"
-    },
-    {
-      "title": "\u5FAE PE \u5DE5\u5177\u7BB1",
-      "desc": "\u4F53\u79EF\u5C0F\u3001\u65E0\u6346\u7ED1\uFF0C\u8001\u673A\u5668\u4E5F\u80FD\u987A\u7545\u8FD0\u884C\u3002",
-      "kind": "url",
-      "target": "https://www.wepe.com.cn/",
-      "button": "\u6253\u5F00\u5B98\u7F51"
-    }
-  ]
+    "schema":  2,
+    "page":  "winpe",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "items":  [
+                  {
+                      "title":  "FirPE 维护系统",
+                      "kind":  "url",
+                      "target":  "https://firpe.cn/page-247",
+                      "note":  "官方推荐",
+                      "badge":  "推荐"
+                  },
+                  {
+                      "title":  "微 PE 工具箱",
+                      "kind":  "url",
+                      "target":  "https://www.wepe.com.cn/",
+                      "note":  "纯净经典",
+                      "badge":  "推荐"
+                  },
+                  {
+                      "title":  "Edgeless PE",
+                      "kind":  "url",
+                      "target":  "https://home.edgeless.top/",
+                      "note":  "可扩展插件化 PE",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "USM U 盘魔术师",
+                      "kind":  "url",
+                      "target":  "https://www.sysceo.com/usm.html",
+                      "note":  "驱动齐全",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "WinOS",
+                      "kind":  "url",
+                      "target":  "https://www.winos.me/",
+                      "note":  "系统与 PE 合集",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "果核剥壳 · PE 分类",
+                      "kind":  "url",
+                      "target":  "https://www.ghxi.com/category/all/system/winpe",
+                      "note":  "PE 分类页",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "CowPE",
+                      "kind":  "url",
+                      "target":  "https://cowpe.myzqw.cn/project/8c11",
+                      "note":  "轻量维护",
+                      "badge":  ""
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "FirPE 制作工具",
+                           "desc":  "集成大量维护工具，支持 UEFI 与 Legacy 双启动。",
+                           "kind":  "url",
+                           "target":  "https://firpe.cn/page-247",
+                           "button":  "打开官网",
+                           "icon":  "Fire",
+                           "logo":  ""
+                       },
+                       {
+                           "title":  "微 PE 工具箱",
+                           "desc":  "体积小、无捆绑，老机器也能顺畅运行。",
+                           "kind":  "url",
+                           "target":  "https://www.wepe.com.cn/",
+                           "button":  "打开官网",
+                           "icon":  "Usb",
+                           "logo":  "site_wepe.png"
+                       }
+                   ]
 }
