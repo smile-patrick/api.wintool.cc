@@ -1,38 +1,40 @@
 {
-  "schema": 2,
-  "page": "officeact",
-  "version": 2,
-  "updatedAt": "2026-11-16",
-  "items": [
-    {
-      "title": "HEU KMS Activator",
-      "kind": "tool",
-      "target": "HEU_KMS_Activator_v19.6.3.exe",
-      "note": "\u5DE5\u5177\u5305\u5185\u7F6E \u00B7 \u63A8\u8350",
-      "badge": "\u672C\u5730"
-    },
-    {
-      "title": "Office Tool Plus",
-      "kind": "url",
-      "target": "https://otp.landian.vip/zh-cn/",
-      "note": "\u90E8\u7F72 \u002B \u6FC0\u6D3B\u4E00\u4F53\u5316",
-      "badge": ""
-    },
-    {
-      "title": "\u6FC0\u6D3B\u72B6\u6001\u68C0\u6D4B",
-      "kind": "tool",
-      "target": "\u6FC0\u6D3B\u68C0\u6D4B.cmd",
-      "note": "\u5DE5\u5177\u5305\u5185\u7F6E",
-      "badge": "\u672C\u5730"
-    }
-  ],
-  "recommends": [
-    {
-      "title": "HEU KMS Activator",
-      "desc": "\u56FE\u5F62\u5316\u4E00\u952E\u6FC0\u6D3B Office \u4E0E Windows\uFF0C\u652F\u6301\u6570\u5B57\u6743\u5229\u3002",
-      "kind": "tool",
-      "target": "HEU_KMS_Activator_v19.6.3.exe",
-      "button": "\u542F\u52A8\u5DE5\u5177"
-    }
-  ]
+    "schema":  2,
+    "page":  "officeact",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "items":  [
+                  {
+                      "title":  "HEU KMS Activator",
+                      "kind":  "tool",
+                      "target":  "HEU_KMS_Activator_v19.6.3.exe",
+                      "note":  "工具包内置 · 推荐",
+                      "badge":  "本地"
+                  },
+                  {
+                      "title":  "Office Tool Plus",
+                      "kind":  "url",
+                      "target":  "https://otp.landian.vip/zh-cn/",
+                      "note":  "部署 + 激活一体化",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "激活状态检测",
+                      "kind":  "tool",
+                      "target":  "激活检测.cmd",
+                      "note":  "工具包内置",
+                      "badge":  "本地"
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "HEU KMS Activator",
+                           "desc":  "图形化一键激活 Office 与 Windows，支持数字权利。",
+                           "kind":  "tool",
+                           "target":  "HEU_KMS_Activator_v19.6.3.exe",
+                           "button":  "启动工具",
+                           "icon":  "Shield",
+                           "logo":  ""
+                       }
+                   ]
 }
