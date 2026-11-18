@@ -1,52 +1,54 @@
 {
-  "schema": 2,
-  "page": "beauty",
-  "version": 2,
-  "updatedAt": "2026-11-16",
-  "items": [
-    {
-      "title": "Mica For Everyone",
-      "kind": "url",
-      "target": "https://github.com/MicaForEveryone/MicaForEveryone",
-      "note": "\u7A97\u53E3\u6750\u8D28\u4E0E\u5706\u89D2",
-      "badge": ""
-    },
-    {
-      "title": "TranslucentTB",
-      "kind": "url",
-      "target": "https://github.com/TranslucentTB/TranslucentTB",
-      "note": "\u4EFB\u52A1\u680F\u900F\u660E",
-      "badge": ""
-    },
-    {
-      "title": "StartAllBack",
-      "kind": "url",
-      "target": "https://www.startallback.com/",
-      "note": "\u5F00\u59CB\u83DC\u5355\u8FD8\u539F",
-      "badge": ""
-    },
-    {
-      "title": "\u81F4\u7F8E\u5316",
-      "kind": "url",
-      "target": "https://zhutix.com/",
-      "note": "\u4E3B\u9898 / \u56FE\u6807 / \u58C1\u7EB8",
-      "badge": ""
-    },
-    {
-      "title": "\u4EFB\u52A1\u680F\u7F8E\u5316\uFF08win10\uFF09",
-      "kind": "tool",
-      "target": "\u4EFB\u52A1\u680F\u7F8E\u5316\uFF08win10\uFF09",
-      "note": "\u5DE5\u5177\u5305\u5185\u7F6E",
-      "badge": "\u672C\u5730"
-    }
-  ],
-  "recommends": [
-    {
-      "title": "\u4EFB\u52A1\u680F\u7F8E\u5316\uFF08win10\uFF09",
-      "desc": "\u5DE5\u5177\u5305\u5185\u7684\u4EFB\u52A1\u680F\u900F\u660E\u7F8E\u5316\u5C0F\u5DE5\u5177\u3002",
-      "kind": "tool",
-      "target": "\u4EFB\u52A1\u680F\u7F8E\u5316\uFF08win10\uFF09",
-      "button": "\u6253\u5F00\u76EE\u5F55"
-    }
-  ]
+    "schema":  2,
+    "page":  "beauty",
+    "version":  2,
+    "updatedAt":  "2026-11-16",
+    "items":  [
+                  {
+                      "title":  "Mica For Everyone",
+                      "kind":  "url",
+                      "target":  "https://github.com/MicaForEveryone/MicaForEveryone",
+                      "note":  "窗口材质与圆角",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "TranslucentTB",
+                      "kind":  "url",
+                      "target":  "https://github.com/TranslucentTB/TranslucentTB",
+                      "note":  "任务栏透明",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "StartAllBack",
+                      "kind":  "url",
+                      "target":  "https://www.startallback.com/",
+                      "note":  "开始菜单还原",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "致美化",
+                      "kind":  "url",
+                      "target":  "https://zhutix.com/",
+                      "note":  "主题 / 图标 / 壁纸",
+                      "badge":  ""
+                  },
+                  {
+                      "title":  "任务栏美化（win10）",
+                      "kind":  "tool",
+                      "target":  "任务栏美化（win10）",
+                      "note":  "工具包内置",
+                      "badge":  "本地"
+                  }
+              ],
+    "recommends":  [
+                       {
+                           "title":  "任务栏美化（win10）",
+                           "desc":  "工具包内的任务栏透明美化小工具。",
+                           "kind":  "tool",
+                           "target":  "任务栏美化（win10）",
+                           "button":  "打开目录",
+                           "icon":  "Brush",
+                           "logo":  ""
+                       }
+                   ]
 }
