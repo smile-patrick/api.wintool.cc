@@ -2,7 +2,7 @@
   "schema": 2,
   "page": "docs",
   "version": 2,
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-26",
   "items": [
     {
       "title": "ESD \u6587\u4EF6\u76F4\u63A5\u88C5\u673A\u6559\u7A0B.docx",
@@ -38,6 +38,13 @@
       "target": "\u8BBAOneDrive\u7684\u5404\u79CD\u7981\u7528\u65B9\u6CD5.doc",
       "note": "\u7CFB\u7EDF\u7CBE\u7B80",
       "badge": "\u672C\u5730"
+    },
+    {
+      "title": "\u6D4B\u8BD5",
+      "kind": "file",
+      "target": "tools/\u6559\u7A0B\u6587\u6863/\u6D4B\u8BD5.docx",
+      "note": "\u6587\u6863 \u00B7 \u70B9\u51FB\u6253\u5F00",
+      "badge": "\u6587\u6863"
     }
   ],
   "recommends": []
